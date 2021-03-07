@@ -3,13 +3,14 @@ var framePtr = null;
 var excHandler = 0;
 var lastJSError = null;
 var NTI2456005 = {size: 0,kind: 36,base: null,node: null,finalizer: null};
-var NTI14505002 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI14565002 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI13810029 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI13785388 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
 var NTI13785373 = {size: 0,kind: 20,base: null,node: null,finalizer: null};
 var NTI13805029 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI13785385 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
 var NTI13785371 = {size: 0,kind: 20,base: null,node: null,finalizer: null};
+var NTI13825321 = {size: 0,kind: 16,base: null,node: null,finalizer: null};
 var NTI2456068 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
 var NTI13825216 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
 var NTI2456066 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
@@ -21,8 +22,8 @@ var NTI12522033 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI12522018 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
 var NTI13745008 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI13745002 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
-var NTI14020063 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI13860428 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI14060072 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI13900428 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
 var NTI6855232 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
 var NTI7110011 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI2462653 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
@@ -34,10 +35,11 @@ var NTI13785375 = {size: 0,kind: 20,base: null,node: null,finalizer: null};
 var NTI13785382 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
 var NTI13785378 = {size: 0,kind: 20,base: null,node: null,finalizer: null};
 var NTI13785377 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI13815224 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI13845001 = {size: 0,kind: 16,base: null,node: null,finalizer: null};
 var NTI12566015 = {size: 0,kind: 43,base: null,node: null,finalizer: null};
 var NTI12566202 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI2462641 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI13825233 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI2462408 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI2462728 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
 var NTI2456015 = {size: 0,kind: 29,base: null,node: null,finalizer: null};
@@ -73,15 +75,16 @@ NTI2462408.node = NNI2462408;
 NTI2462617.base = NTI2462408;
 NTI2462619.base = NTI2462617;
 NTI2462651.base = NTI2462619;
+var NNI13825233 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI13745013, name: "a", sons: null}, 
+{kind: 1, offset: "b", len: 0, typ: NTI13745013, name: "b", sons: null}]};
+NTI13825233.node = NNI13825233;
 var NNI2462641 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI2462641.node = NNI2462641;
 NTI2462641.base = NTI2462619;
 var NNI12566202 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a0", len: 0, typ: NTI12566015, name: "a0", sons: null}, 
 {kind: 1, offset: "a1", len: 0, typ: NTI12566015, name: "a1", sons: null}]};
 NTI12566202.node = NNI12566202;
-var NNI13815224 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI13745013, name: "a", sons: null}, 
-{kind: 1, offset: "b", len: 0, typ: NTI13745013, name: "b", sons: null}]};
-NTI13815224.node = NNI13815224;
+NTI13845001.base = NTI13745013;
 NTI13785378.base = NTI13785382;
 NTI13785375.base = NTI13785391;
 var NNI13785377 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "kind", len: 0, typ: NTI13745013, name: "kind", sons: null}, 
@@ -100,7 +103,7 @@ NTI2462653.base = NTI2462619;
 var NNI7110011 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI6855232, name: "a", sons: null}, 
 {kind: 1, offset: "b", len: 0, typ: NTI2456044, name: "b", sons: null}]};
 NTI7110011.node = NNI7110011;
-NTI13860428.base = NTI13785377;
+NTI13900428.base = NTI13785377;
 var NNI13745002 = {kind: 2, offset: 0, typ: null, name: null, len: 4, sons: {"0": {kind: 1, offset: 0, typ: NTI13745002, name: "gsNone", len: 0, sons: null}, 
 "1": {kind: 1, offset: 1, typ: NTI13745002, name: "gsInitial", len: 0, sons: null}, 
 "2": {kind: 1, offset: 2, typ: NTI13745002, name: "gsTetris", len: 0, sons: null}, 
@@ -113,22 +116,26 @@ var NNI13745008 = {kind: 1, offset: "background", len: 0, typ: NTI12522018, name
 NTI13745008.node = NNI13745008;
 NTI13825207.base = NTI13745013;
 NTI13825211.base = NTI13785377;
-var NNI13825202 = {kind: 2, len: 10, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "board", len: 0, typ: NTI13825207, name: "board", sons: null}, 
+NTI13825321.base = NTI13745013;
+var NNI13825202 = {kind: 2, len: 13, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "board", len: 0, typ: NTI13825207, name: "board", sons: null}, 
 {kind: 1, offset: "nextPieces", len: 0, typ: NTI13825211, name: "nextPieces", sons: null}, 
 {kind: 1, offset: "piece", len: 0, typ: NTI13785377, name: "piece", sons: null}, 
 {kind: 1, offset: "pieceDropTicking", len: 0, typ: NTI2456064, name: "pieceDropTicking", sons: null}, 
 {kind: 1, offset: "pieceDropTick", len: 0, typ: NTI2456066, name: "pieceDropTick", sons: null}, 
 {kind: 1, offset: "pieceDropTime", len: 0, typ: NTI13825216, name: "pieceDropTime", sons: null}, 
+{kind: 1, offset: "pieceDropTickMultiplier", len: 0, typ: NTI2456068, name: "pieceDropTickMultiplier", sons: null}, 
 {kind: 1, offset: "pieceDropRetry", len: 0, typ: NTI2456066, name: "pieceDropRetry", sons: null}, 
 {kind: 1, offset: "pieceDropRetries", len: 0, typ: NTI2456068, name: "pieceDropRetries", sons: null}, 
 {kind: 1, offset: "holdPiece", len: 0, typ: NTI13785377, name: "holdPiece", sons: null}, 
-{kind: 1, offset: "justHeld", len: 0, typ: NTI2456064, name: "justHeld", sons: null}]};
+{kind: 1, offset: "justHeld", len: 0, typ: NTI2456064, name: "justHeld", sons: null}, 
+{kind: 1, offset: "randBuffer", len: 0, typ: NTI13825321, name: "randBuffer", sons: null}, 
+{kind: 1, offset: "randBufferPos", len: 0, typ: NTI2456044, name: "randBufferPos", sons: null}]};
 NTI13825202.node = NNI13825202;
-var NNI14020063 = {kind: 3, offset: "kind", len: 4, typ: NTI13745002, name: "kind", sons: [[setConstr(1), {kind: 1, offset: "initial", len: 0, typ: NTI13745008, name: "initial", sons: null}], 
+var NNI14060072 = {kind: 3, offset: "kind", len: 4, typ: NTI13745002, name: "kind", sons: [[setConstr(1), {kind: 1, offset: "initial", len: 0, typ: NTI13745008, name: "initial", sons: null}], 
 [setConstr(2), {kind: 1, offset: "tetris", len: 0, typ: NTI13825202, name: "tetris", sons: null}], 
 [setConstr(3), {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []}], 
 [setConstr(4), {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []}]]};
-NTI14020063.node = NNI14020063;
+NTI14060072.node = NNI14060072;
 NTI13785371.base = NTI13785385;
 var NNI13805029 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI13785371, name: "a", sons: null}, 
 {kind: 1, offset: "b", len: 0, typ: NTI13785371, name: "b", sons: null}]};
@@ -137,9 +144,9 @@ NTI13785373.base = NTI13785388;
 var NNI13810029 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI13785373, name: "a", sons: null}, 
 {kind: 1, offset: "b", len: 0, typ: NTI13785373, name: "b", sons: null}]};
 NTI13810029.node = NNI13810029;
-var NNI14505002 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI2456005, name: "Field0", sons: null}, 
+var NNI14565002 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI2456005, name: "Field0", sons: null}, 
 {kind: 1, offset: "Field1", len: 0, typ: NTI2456005, name: "Field1", sons: null}]};
-NTI14505002.node = NNI14505002;
+NTI14565002.node = NNI14565002;
 function arrayConstr(len_2750067, value_2750068, typ_2750069) {
         var result = new Array(len_2750067);
     for (var i = 0; i < len_2750067; ++i) result[i] = nimCopy(null, value_2750068, typ_2750069);
@@ -343,9 +350,32 @@ var ConstSet6 = setConstr(2);
 var ConstSet7 = setConstr(2);
 var ConstSet8 = setConstr(2);
 var ConstSet9 = setConstr(2);
-    var minDims_13815213 = [{Field0: 0, Field1: 0}, {Field0: 0, Field1: 0}, {Field0: 0, Field1: -1}, {Field0: -1, Field1: -1}, {Field0: 0, Field1: 0}, {Field0: -1, Field1: 0}, {Field0: -1, Field1: 0}, {Field0: -1, Field1: 0}];
 var ConstSet10 = setConstr(2);
-var ConstSet11 = setConstr(2, 3);
+function nimMax(a_2730821, b_2730822) {
+    var Tmp1;
+
+  var result_2730823 = 0;
+
+  BeforeRet: do {
+    if ((b_2730822 <= a_2730821)) {
+    Tmp1 = a_2730821;
+    }
+    else {
+    Tmp1 = b_2730822;
+    }
+    
+    result_2730823 = Tmp1;
+    break BeforeRet;
+  } while (false);
+
+  return result_2730823;
+
+}
+var ConstSet11 = setConstr(2);
+    var minDims_13815214 = [{Field0: 0, Field1: 0}, {Field0: 0, Field1: 0}, {Field0: 0, Field1: -1}, {Field0: -1, Field1: -1}, {Field0: 0, Field1: 0}, {Field0: -1, Field1: 0}, {Field0: -1, Field1: 0}, {Field0: -1, Field1: 0}];
+var ConstSet12 = setConstr(2);
+var ConstSet13 = setConstr(2);
+var ConstSet14 = setConstr(2, 3);
         var pieceExtensions_13785367 = [[], [{Field0: 0, Field1: 1}, {Field0: 0, Field1: 2}, {Field0: 0, Field1: 3}], [{Field0: 0, Field1: -1}, {Field0: 1, Field1: -1}, {Field0: 0, Field1: 1}], [{Field0: -1, Field1: -1}, {Field0: 0, Field1: -1}, {Field0: 0, Field1: 1}], [{Field0: 0, Field1: 1}, {Field0: 1, Field1: 0}, {Field0: 1, Field1: 1}], [{Field0: -1, Field1: 1}, {Field0: 0, Field1: 1}, {Field0: 1, Field1: 0}], [{Field0: -1, Field1: 0}, {Field0: 0, Field1: 1}, {Field0: 1, Field1: 1}], [{Field0: -1, Field1: 0}, {Field0: 0, Field1: 1}, {Field0: 1, Field1: 0}]];
 function cstrToNimstr(c_2725079) {
       var ln = c_2725079.length;
@@ -385,9 +415,6 @@ function cstrToNimstr(c_2725079) {
 
   
 }
-var ConstSet12 = setConstr(2);
-var ConstSet13 = setConstr(2);
-var ConstSet14 = setConstr(2);
 var ConstSet15 = setConstr(2);
 var ConstSet16 = setConstr(2);
 var ConstSet17 = setConstr(2);
@@ -407,26 +434,12 @@ var ConstSet30 = setConstr(2);
 var ConstSet31 = setConstr(2);
 var ConstSet32 = setConstr(2);
 var ConstSet33 = setConstr(2);
-function nimMax(a_2730821, b_2730822) {
-    var Tmp1;
-
-  var result_2730823 = 0;
-
-  BeforeRet: do {
-    if ((b_2730822 <= a_2730821)) {
-    Tmp1 = a_2730821;
-    }
-    else {
-    Tmp1 = b_2730822;
-    }
-    
-    result_2730823 = Tmp1;
-    break BeforeRet;
-  } while (false);
-
-  return result_2730823;
-
-}
+var ConstSet34 = setConstr(2);
+var ConstSet35 = setConstr(2);
+var ConstSet36 = setConstr(2);
+var ConstSet37 = setConstr(2);
+var ConstSet38 = setConstr(2);
+var ConstSet39 = setConstr(2);
 function nimMin(a_2730803, b_2730804) {
     var Tmp1;
 
@@ -447,12 +460,6 @@ function nimMin(a_2730803, b_2730804) {
   return result_2730805;
 
 }
-var ConstSet34 = setConstr(2);
-var ConstSet35 = setConstr(2);
-var ConstSet36 = setConstr(2);
-var ConstSet37 = setConstr(2);
-var ConstSet38 = setConstr(2);
-var ConstSet39 = setConstr(2);
 var ConstSet40 = setConstr(2);
 var ConstSet41 = setConstr(2);
 var ConstSet42 = setConstr(2);
@@ -468,22 +475,29 @@ var ConstSet51 = setConstr(2);
 var ConstSet52 = setConstr(2);
 var ConstSet53 = setConstr(2);
 var ConstSet54 = setConstr(2);
-var ConstSet55 = setConstr(1);
+var ConstSet55 = setConstr(2);
 var ConstSet56 = setConstr(2);
-              var pieceColors_13785202 = ["rgba(0,0,0,0.0)", "rgba(0,127,255,1.0)", "rgba(0,0,255,1.0)", "rgba(255,127,0,1.0)", "rgba(255,255,0,1.0)", "rgba(0,255,127,1.0)", "rgba(255,0,0,1.0)", "rgba(255,0,255,1.0)"];
 var ConstSet57 = setConstr(2);
 var ConstSet58 = setConstr(2);
 var ConstSet59 = setConstr(2);
 var ConstSet60 = setConstr(2);
 var ConstSet61 = setConstr(2);
-var ConstSet62 = setConstr(2);
+var ConstSet62 = setConstr(1);
 var ConstSet63 = setConstr(2);
+              var pieceColors_13785202 = ["rgba(0,0,0,0.0)", "rgba(0,127,255,1.0)", "rgba(0,0,255,1.0)", "rgba(255,127,0,1.0)", "rgba(255,255,0,1.0)", "rgba(0,255,127,1.0)", "rgba(255,0,0,1.0)", "rgba(255,0,255,1.0)"];
 var ConstSet64 = setConstr(2);
 var ConstSet65 = setConstr(2);
 var ConstSet66 = setConstr(2);
 var ConstSet67 = setConstr(2);
 var ConstSet68 = setConstr(2);
 var ConstSet69 = setConstr(2);
+var ConstSet70 = setConstr(2);
+var ConstSet71 = setConstr(2);
+var ConstSet72 = setConstr(2);
+var ConstSet73 = setConstr(2);
+var ConstSet74 = setConstr(2);
+var ConstSet75 = setConstr(2);
+var ConstSet76 = setConstr(2);
 if (!Math.trunc) {
   Math.trunc = function(v) {
     v = +v;
@@ -595,6 +609,22 @@ function loadTexture_12522061(url_12522063) {
   return result_12522064;
 
 }
+function len_13825289(x_13825294) {
+  var result_13825295 = 0;
+
+    result_13825295 = nimMax(0, ((x_13825294.b - x_13825294.a) + 1));
+
+  return result_13825295;
+
+}
+function HEX2EHEX2E_13825223(a_13825228, b_13825230) {
+  var result_13825236 = ({a: 0, b: 0});
+
+    nimCopy(result_13825236, {a: a_13825228, b: b_13825230}, NTI13825233);
+
+  return result_13825236;
+
+}
 function toFloat_2486659(i_2486661) {
   var result_2486662 = 0.0;
 
@@ -680,6 +710,23 @@ function randomize_13731001() {
 
   
 }
+function coord_13785422(x_13785424, y_13785425) {
+  var result_13785426 = 0;
+
+    result_13785426 = ((y_13785425 * 10) + x_13785424);
+
+  return result_13785426;
+
+}
+function initPiece_13815032(kind_13815034) {
+  var result_13815035 = ({kind: 0, pos: 0, rot: 0});
+
+    result_13815035.kind = kind_13815034;
+    result_13815035.pos = coord_13785422(-(minDims_13815214[kind_13815034]["Field0"]), -(minDims_13815214[kind_13815034]["Field1"]));
+
+  return result_13815035;
+
+}
 function rand_12570049(r_12570052, max_12570053) {
   var result_12570054 = 0;
 
@@ -704,45 +751,58 @@ function rand_12570049(r_12570052, max_12570053) {
   return result_12570054;
 
 }
-function rand_13815307(r_13815310, x_13815312) {
-  var result_13815313 = 0;
+function shuffle_13850009(r_13850012, x_13850015) {
+    L1: do {
+      var i_13850027 = 0;
+      var colontmp__14446259 = 0;
+      colontmp__14446259 = ((x_13850015).length-1);
+      var res_14446260 = colontmp__14446259;
+      L2: do {
+          L3: while (true) {
+          if (!(1 <= res_14446260)) break L3;
+            i_13850027 = res_14446260;
+            var j_13850028 = rand_12570049(r_13850012, i_13850027);
+            var Tmp4 = x_13850015[i_13850027]; x_13850015[i_13850027] = x_13850015[j_13850028]; x_13850015[j_13850028] = Tmp4;            res_14446260 -= 1;
+          }
+      } while(false);
+    } while(false);
 
-    result_13815313 = (rand_12570049(r_13815310, (((x_13815312.b)|0) - ((x_13815312.a)|0))) + ((x_13815312.a)|0));
+  
+}
+function shuffle_13850003(x_13850008) {
+    shuffle_13850009(state_12566205[0], x_13850008);
 
-  return result_13815313;
+  
+}
+function randPieceKind_13825356(state_13825358) {
+  var result_13825359 = 0;
+
+    if ((state_13825358.randBufferPos == 7)) {
+    state_13825358.randBufferPos = 0;
+    nimCopy(state_13825358.randBuffer, [1, 2, 3, 4, 5, 6, 7], NTI13845001);
+    shuffle_13850003(state_13825358.randBuffer);
+    }
+    
+    result_13825359 = state_13825358.randBuffer[state_13825358.randBufferPos];
+    state_13825358.randBufferPos += 1;
+
+  return result_13825359;
 
 }
-function rand_13815282(x_13815286) {
-  var result_13815287 = 0;
+function rand_13925054(r_13925057, x_13925059) {
+  var result_13925060 = 0;
 
-    result_13815287 = rand_13815307(state_12566205[0], x_13815286);
+    result_13925060 = (rand_12570049(r_13925057, (((x_13925059.b)|0) - ((x_13925059.a)|0))) + ((x_13925059.a)|0));
 
-  return result_13815287;
-
-}
-function HEX2EHEX2E_13815214(a_13815219, b_13815221) {
-  var result_13815227 = ({a: 0, b: 0});
-
-    nimCopy(result_13815227, {a: a_13815219, b: b_13815221}, NTI13815224);
-
-  return result_13815227;
+  return result_13925060;
 
 }
-function coord_13785422(x_13785424, y_13785425) {
-  var result_13785426 = 0;
+function rand_13925029(x_13925033) {
+  var result_13925034 = 0;
 
-    result_13785426 = ((y_13785425 * 10) + x_13785424);
+    result_13925034 = rand_13925054(state_12566205[0], x_13925033);
 
-  return result_13785426;
-
-}
-function randomNextPiece_13815032() {
-  var result_13815034 = ({kind: 0, pos: 0, rot: 0});
-
-    result_13815034.kind = rand_13815282(HEX2EHEX2E_13815214(1, 7));
-    result_13815034.pos = coord_13785422(-(minDims_13815213[result_13815034.kind]["Field0"]), -(minDims_13815213[result_13815034.kind]["Field1"]));
-
-  return result_13815034;
+  return result_13925034;
 
 }
 function rot_13787227(x_13787229, y_13787230, q_13787231) {
@@ -788,115 +848,115 @@ function row_13785517(c_13785519) {
 function plusRot_13787251(a_13787253, x_13787254, y_13787255, q_13787256) {
   var result_13787258 = {Field0: 0, Field1: 0};
 
-    var colontmp__14391286 = rot_13787227(x_13787254, y_13787255, q_13787256);
-    var rotx_13787259 = colontmp__14391286["Field0"];
-    var roty_13787260 = colontmp__14391286["Field1"];
-    var colontmp__14391284 = (column_13785500(a_13787253) + rotx_13787259);
-    var colontmp__14391285 = (row_13785517(a_13787253) + roty_13787260);
-    nimCopy(result_13787258, {Field0: colontmp__14391284, Field1: colontmp__14391285}, NTI13787257);
+    var colontmp__14446291 = rot_13787227(x_13787254, y_13787255, q_13787256);
+    var rotx_13787259 = colontmp__14446291["Field0"];
+    var roty_13787260 = colontmp__14446291["Field1"];
+    var colontmp__14446289 = (column_13785500(a_13787253) + rotx_13787259);
+    var colontmp__14446290 = (row_13785517(a_13787253) + roty_13787260);
+    nimCopy(result_13787258, {Field0: colontmp__14446289, Field1: colontmp__14446290}, NTI13787257);
 
   return result_13787258;
 
 }
-function overlaps_13815456(board_13815461, piece_13815462) {
-  var result_13815463 = false;
+function overlaps_13815243(board_13815248, piece_13815249) {
+  var result_13815250 = false;
 
   BeforeRet: do {
-    result_13815463 = false;
+    result_13815250 = false;
     L1: do {
-      var c_13815464 = 0;
-      if (!((piece_13815462.kind == 0))) {
-      c_13815464 = piece_13815462.pos;
-      if (!((board_13815461[c_13815464] == 0))) {
-      result_13815463 = true;
+      var c_13815251 = 0;
+      if (!((piece_13815249.kind == 0))) {
+      c_13815251 = piece_13815249.pos;
+      if (!((board_13815248[c_13815251] == 0))) {
+      result_13815250 = true;
       break BeforeRet;
       }
       
       }
       
       L2: do {
-        var x_14391275 = null;
-        var x_14391275_Idx = 0;
-        var y_14391276 = null;
-        var y_14391276_Idx = 0;
-        var colontmp__14391277 = [];
-        colontmp__14391277 = pieceExtensions_13785367[piece_13815462.kind];
-        var i_14391278 = 0;
-        var L_14391279 = (colontmp__14391277).length;
+        var x_14446280 = null;
+        var x_14446280_Idx = 0;
+        var y_14446281 = null;
+        var y_14446281_Idx = 0;
+        var colontmp__14446282 = [];
+        colontmp__14446282 = pieceExtensions_13785367[piece_13815249.kind];
+        var i_14446283 = 0;
+        var L_14446284 = (colontmp__14446282).length;
         L3: do {
             L4: while (true) {
-            if (!(i_14391278 < L_14391279)) break L4;
-              x_14391275 = colontmp__14391277[i_14391278]; x_14391275_Idx = "Field0";
-              y_14391276 = colontmp__14391277[i_14391278]; y_14391276_Idx = "Field1";
-              var colontmp__14391283 = plusRot_13787251(piece_13815462.pos, x_14391275[x_14391275_Idx], y_14391276[y_14391276_Idx], piece_13815462.rot);
-              var c_14391281 = colontmp__14391283["Field0"];
-              var r_14391282 = colontmp__14391283["Field1"];
-              c_13815464 = coord_13785422(c_14391281, r_14391282);
-              if (!((board_13815461[c_13815464] == 0))) {
-              result_13815463 = true;
+            if (!(i_14446283 < L_14446284)) break L4;
+              x_14446280 = colontmp__14446282[i_14446283]; x_14446280_Idx = "Field0";
+              y_14446281 = colontmp__14446282[i_14446283]; y_14446281_Idx = "Field1";
+              var colontmp__14446288 = plusRot_13787251(piece_13815249.pos, x_14446280[x_14446280_Idx], y_14446281[y_14446281_Idx], piece_13815249.rot);
+              var c_14446286 = colontmp__14446288["Field0"];
+              var r_14446287 = colontmp__14446288["Field1"];
+              c_13815251 = coord_13785422(c_14446286, r_14446287);
+              if (!((board_13815248[c_13815251] == 0))) {
+              result_13815250 = true;
               break BeforeRet;
               }
               
-              i_14391278 += 1;
+              i_14446283 += 1;
             }
         } while(false);
       } while(false);
     } while(false);
   } while (false);
 
-  return result_13815463;
+  return result_13815250;
 
 }
-function spawnPiece_13870084(state_13870086, initial_13870087) {
+function spawnPiece_13910084(state_13910086, initial_13910087) {
     var Tmp1;
 
-    nimCopy(state_13870086.piece, initial_13870087, NTI13785377);
-    if ((state_13870086.piece.kind == 0)) {
-    state_13870086.piece.kind = rand_13815282(HEX2EHEX2E_13815214(1, 7));
+    nimCopy(state_13910086.piece, initial_13910087, NTI13785377);
+    if ((state_13910086.piece.kind == 0)) {
+    state_13910086.piece.kind = rand_13925029(HEX2EHEX2E_13825223(1, 7));
     }
     
-    if ((ConstSet11[state_13870086.piece.kind] != undefined)) {
+    if ((ConstSet14[state_13910086.piece.kind] != undefined)) {
     Tmp1 = 11;
     }
     else {
     Tmp1 = 10;
     }
     
-    state_13870086.piece.pos = coord_13785422(5, Tmp1);
+    state_13910086.piece.pos = coord_13785422(5, Tmp1);
     L2: do {
         L3: while (true) {
-        if (!overlaps_13815456(state_13870086.board, state_13870086.piece)) break L3;
-          state_13870086.piece.pos = (state_13870086.piece.pos - 10);
+        if (!overlaps_13815243(state_13910086.board, state_13910086.piece)) break L3;
+          state_13910086.piece.pos = (state_13910086.piece.pos - 10);
         }
     } while(false);
-    state_13870086.pieceDropTick = 0;
+    state_13910086.pieceDropTick = 0;
 
   
 }
-function sysFatal_13860837(message_13860841) {
-    raiseException({message: nimCopy(null, message_13860841, NTI2456013), m_type: NTI2462653, parent: null, name: null, trace: [], up: null}, "RangeDefect");
+function sysFatal_13900837(message_13900841) {
+    raiseException({message: nimCopy(null, message_13900841, NTI2456013), m_type: NTI2462653, parent: null, name: null, trace: [], up: null}, "RangeDefect");
 
   
 }
-function HEX5BHEX5DHEX3D_13860508(a_13860516, x_13860518, b_13860520) {
-    var xa_13860601 = x_13860518.a;
-    var L_13860822 = (((4 - x_13860518.b) - xa_13860601) + 1);
-    if ((L_13860822 == (b_13860520).length)) {
+function HEX5BHEX5DHEX3D_13900508(a_13900516, x_13900518, b_13900520) {
+    var xa_13900601 = x_13900518.a;
+    var L_13900822 = (((4 - x_13900518.b) - xa_13900601) + 1);
+    if ((L_13900822 == (b_13900520).length)) {
     L1: do {
-      var i_13860834 = 0;
-      var i_14391295 = 0;
+      var i_13900834 = 0;
+      var i_14446300 = 0;
       L2: do {
           L3: while (true) {
-          if (!(i_14391295 < L_13860822)) break L3;
-            i_13860834 = i_14391295;
-            nimCopy(a_13860516[(i_13860834 + xa_13860601)], b_13860520[i_13860834], NTI13785377);
-            i_14391295 += 1;
+          if (!(i_14446300 < L_13900822)) break L3;
+            i_13900834 = i_14446300;
+            nimCopy(a_13900516[(i_13900834 + xa_13900601)], b_13900520[i_13900834], NTI13785377);
+            i_14446300 += 1;
           }
       } while(false);
     } while(false);
     }
     else {
-    sysFatal_13860837(makeNimstrLit("different lengths for slice assignment"));
+    sysFatal_13900837(makeNimstrLit("different lengths for slice assignment"));
     }
     
 
@@ -910,48 +970,48 @@ function HEX2EHEX2E_7110001(a_7110006, b_7110008) {
   return result_7110014;
 
 }
-function newSeq_13860424(len_13860427) {
-  var result_13860429 = [];
+function newSeq_13900424(len_13900427) {
+  var result_13900429 = [];
 
-    result_13860429 = new Array(len_13860427); for (var i=0;i<len_13860427;++i) {result_13860429[i]=({kind: 0, pos: 0, rot: 0});}
-  return result_13860429;
+    result_13900429 = new Array(len_13900427); for (var i=0;i<len_13900427;++i) {result_13900429[i]=({kind: 0, pos: 0, rot: 0});}
+  return result_13900429;
 
 }
-function HEX5BHEX5D_13860029(a_13860036, x_13860038) {
-  var result_13860040 = [];
+function HEX5BHEX5D_13900029(a_13900036, x_13900038) {
+  var result_13900040 = [];
 
-    var xa_13860201 = x_13860038.a;
-    var L_13860422 = (((4 - x_13860038.b) - xa_13860201) + 1);
-    result_13860040 = nimCopy(null, newSeq_13860424(L_13860422), NTI13860428);
+    var xa_13900201 = x_13900038.a;
+    var L_13900422 = (((4 - x_13900038.b) - xa_13900201) + 1);
+    result_13900040 = nimCopy(null, newSeq_13900424(L_13900422), NTI13900428);
     L1: do {
-      var i_13860472 = 0;
-      var i_14391303 = 0;
+      var i_13900472 = 0;
+      var i_14446308 = 0;
       L2: do {
           L3: while (true) {
-          if (!(i_14391303 < L_13860422)) break L3;
-            i_13860472 = i_14391303;
-            nimCopy(result_13860040[i_13860472], a_13860036[(i_13860472 + xa_13860201)], NTI13785377);
-            i_14391303 += 1;
+          if (!(i_14446308 < L_13900422)) break L3;
+            i_13900472 = i_14446308;
+            nimCopy(result_13900040[i_13900472], a_13900036[(i_13900472 + xa_13900201)], NTI13785377);
+            i_14446308 += 1;
           }
       } while(false);
     } while(false);
 
-  return result_13860040;
+  return result_13900040;
 
 }
-function HEX5BHEX5DHEX3D_13870003(a_13870009, i_13870010, x_13870011) {
-    nimCopy(a_13870009[((4 - i_13870010) + 0)], x_13870011, NTI13785377);
+function HEX5BHEX5DHEX3D_13910003(a_13910009, i_13910010, x_13910011) {
+    nimCopy(a_13910009[((4 - i_13910010) + 0)], x_13910011, NTI13785377);
 
   
 }
-function nextPiece_13825222(state_13825224) {
-  var result_13825225 = ({kind: 0, pos: 0, rot: 0});
+function nextPiece_13865062(state_13865064) {
+  var result_13865065 = ({kind: 0, pos: 0, rot: 0});
 
-    nimCopy(result_13825225, state_13825224.nextPieces[0], NTI13785377);
-    HEX5BHEX5DHEX3D_13860508(state_13825224.nextPieces, HEX2EHEX2E_7110001(0, 2), HEX5BHEX5D_13860029(state_13825224.nextPieces, HEX2EHEX2E_7110001(1, 1)));
-    HEX5BHEX5DHEX3D_13870003(state_13825224.nextPieces, 1, randomNextPiece_13815032());
+    nimCopy(result_13865065, state_13865064.nextPieces[0], NTI13785377);
+    HEX5BHEX5DHEX3D_13900508(state_13865064.nextPieces, HEX2EHEX2E_7110001(0, 2), HEX5BHEX5D_13900029(state_13865064.nextPieces, HEX2EHEX2E_7110001(1, 1)));
+    HEX5BHEX5DHEX3D_13910003(state_13865064.nextPieces, 1, initPiece_13815032(randPieceKind_13825356(state_13865064)));
 
-  return result_13825225;
+  return result_13865065;
 
 }
 function setMusic_12522091(music_12522094, music_12522094_Idx, file_12522095) {
@@ -964,7 +1024,7 @@ function setMusic_12522091(music_12522094, music_12522094_Idx, file_12522095) {
 
   
 }
-function init_14020069(state_14020071) {
+function init_14060078(state_14060080) {
       var Tmp1;
       var Tmp2;
       var Tmp3;
@@ -972,65 +1032,76 @@ function init_14020069(state_14020071) {
       var Tmp5;
       var Tmp6;
       var Tmp7;
-              var Tmp11;
-              var Tmp12;
-      var Tmp13;
+      var Tmp8;
+      var Tmp9;
+              var Tmp13;
+              var Tmp14;
+              var Tmp15;
+      var Tmp16;
 
-    switch (state_14020071.kind) {
+    switch (state_14060080.kind) {
     case 1:
-      var Tmp1 = state_14020071;
+      var Tmp1 = state_14060080;
       if (ConstSet2[Tmp1.kind]===undefined) { raiseFieldError(makeNimstrLit("\'initial\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
       Tmp1.initial.background = loadTexture_12522061("assets/mainmenu.png");
       break;
     case 2:
-      var Tmp2 = state_14020071;
+      var Tmp2 = state_14060080;
       if (ConstSet3[Tmp2.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
       Tmp2.tetris.pieceDropTicking = true;
-      var Tmp3 = state_14020071;
+      var Tmp3 = state_14060080;
       if (ConstSet4[Tmp3.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
       Tmp3.tetris.pieceDropTick = 0;
-      var Tmp4 = state_14020071;
+      var Tmp4 = state_14060080;
       if (ConstSet5[Tmp4.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
       Tmp4.tetris.pieceDropTime = 120;
-      var Tmp5 = state_14020071;
+      var Tmp5 = state_14060080;
       if (ConstSet6[Tmp5.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      Tmp5.tetris.pieceDropRetry = 0;
-      var Tmp6 = state_14020071;
+      Tmp5.tetris.pieceDropTickMultiplier = 1;
+      var Tmp6 = state_14060080;
       if (ConstSet7[Tmp6.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      Tmp6.tetris.pieceDropRetries = 1;
-      var Tmp7 = state_14020071;
+      Tmp6.tetris.pieceDropRetry = 0;
+      var Tmp7 = state_14060080;
       if (ConstSet8[Tmp7.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      Tmp7.tetris.justHeld = false;
+      Tmp7.tetris.pieceDropRetries = 1;
+      var Tmp8 = state_14060080;
+      if (ConstSet9[Tmp8.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      Tmp8.tetris.justHeld = false;
+      var Tmp9 = state_14060080;
+      if (ConstSet10[Tmp9.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      Tmp9.tetris.randBufferPos = len_13825289(HEX2EHEX2E_13825223(1, 7));
       randomize_13731001();
-      L8: do {
-        var np_14025052 = null;
-        var i_14391250 = 0;
-        if ((i_14391250 <= 3)) {
-        L9: do {
-            L10: while (true) {
-            if (!true) break L10;
-              var Tmp11 = state_14020071;
-              if (ConstSet9[Tmp11.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-              np_14025052 = (Tmp12 = Tmp11.tetris.nextPieces, Tmp12)[i_14391250];
-              nimCopy(np_14025052, randomNextPiece_13815032(), NTI13785377);
-              if ((3 <= i_14391250)) {
-              break L9;
+      L10: do {
+        var np_14065052 = null;
+        var i_14446250 = 0;
+        if ((i_14446250 <= 3)) {
+        L11: do {
+            L12: while (true) {
+            if (!true) break L12;
+              var Tmp13 = state_14060080;
+              if (ConstSet11[Tmp13.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+              np_14065052 = (Tmp14 = Tmp13.tetris.nextPieces, Tmp14)[i_14446250];
+              var Tmp15 = state_14060080;
+              if (ConstSet12[Tmp15.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+              nimCopy(np_14065052, initPiece_13815032(randPieceKind_13825356(Tmp15.tetris)), NTI13785377);
+              if ((3 <= i_14446250)) {
+              break L11;
               }
               
-              i_14391250 += 1;
+              i_14446250 += 1;
             }
         } while(false);
         }
         
       } while(false);
-      var Tmp13 = state_14020071;
-      if (ConstSet10[Tmp13.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      var HEX3Atmp_14025055 = Tmp13.tetris;
-      spawnPiece_13870084(HEX3Atmp_14025055, nextPiece_13825222(HEX3Atmp_14025055));
+      var Tmp16 = state_14060080;
+      if (ConstSet13[Tmp16.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      var HEX3Atmp_14065057 = Tmp16.tetris;
+      spawnPiece_13910084(HEX3Atmp_14065057, nextPiece_13865062(HEX3Atmp_14065057));
       setMusic_12522091(currentMusic_12550201, 0, "assets/music.ogg");
-      var mHEX60gensym180_14030001 = currentMusic_12550201[0];
-      mHEX60gensym180_14030001.loop = true;
-      mHEX60gensym180_14030001.play();
+      var mHEX60gensym237_14070001 = currentMusic_12550201[0];
+      mHEX60gensym237_14070001.loop = true;
+      mHEX60gensym237_14070001.play();
       break;
     case 3:
       break;
@@ -1040,16 +1111,16 @@ function init_14020069(state_14020071) {
 
   
 }
-var game_14245401 = [{kind: 1, initial: ({background: null}), tetris: ({board: arrayConstr(300, 0, NTI13745013), nextPieces: [({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0})], piece: ({kind: 0, pos: 0, rot: 0}), pieceDropTicking: false, pieceDropTick: 0, pieceDropTime: 0, pieceDropRetry: 0, pieceDropRetries: 0, holdPiece: ({kind: 0, pos: 0, rot: 0}), justHeld: false})}];
-init_14020069(game_14245401[0]);
+var game_14300401 = [{kind: 1, initial: ({background: null}), tetris: ({board: arrayConstr(300, 0, NTI13745013), nextPieces: [({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0})], piece: ({kind: 0, pos: 0, rot: 0}), pieceDropTicking: false, pieceDropTick: 0, pieceDropTime: 0, pieceDropTickMultiplier: 0, pieceDropRetry: 0, pieceDropRetries: 0, holdPiece: ({kind: 0, pos: 0, rot: 0}), justHeld: false, randBuffer: [0, 0, 0, 0, 0, 0, 0], randBufferPos: 0})}];
+init_14060078(game_14300401[0]);
 window.requestAnimationFrame =
   window.requestAnimationFrame ||
     window.webkitRequestAnimationFrame ||
     window.mozRequestAnimationFrame ||
     ((cb) => window.setTimeout(callback, 1000 / 60));
 
-function finish_14030066(state_14030068) {
-    switch (state_14030068.kind) {
+function finish_14070066(state_14070068) {
+    switch (state_14070068.kind) {
     case 1:
       break;
     case 2:
@@ -1116,177 +1187,177 @@ function contains_13810002(x_13810007) {
   return result_13810008;
 
 }
-function rotate_13925014(state_13925016, forward_13925017) {
+function rotate_13965014(state_13965016, forward_13965017) {
     var Tmp1;
     var Tmp2;
       var Tmp3;
 
   BeforeRet: do {
-    var oldRot_13930001 = state_13925016.piece.rot;
-    if (forward_13925017) {
-    if ((oldRot_13930001 == 3)) {
+    var oldRot_13970001 = state_13965016.piece.rot;
+    if (forward_13965017) {
+    if ((oldRot_13970001 == 3)) {
     Tmp2 = 0;
     }
     else {
-    Tmp2 = (oldRot_13930001 + 1);
+    Tmp2 = (oldRot_13970001 + 1);
     }
     
     Tmp1 = Tmp2;
     }
     else {
-      if ((oldRot_13930001 == 0)) {
+      if ((oldRot_13970001 == 0)) {
       Tmp3 = 3;
       }
       else {
-      Tmp3 = (oldRot_13930001 - 1);
+      Tmp3 = (oldRot_13970001 - 1);
       }
       
     Tmp1 = Tmp3;
     }
     
-    var newRot_13930026 = Tmp1;
-    var newPiece_13935001 = nimCopy(null, state_13925016.piece, NTI13785377);
-    newPiece_13935001.rot = newRot_13930026;
-    var outOfBounds_13935002 = [false];
+    var newRot_13970026 = Tmp1;
+    var newPiece_13975001 = nimCopy(null, state_13965016.piece, NTI13785377);
+    newPiece_13975001.rot = newRot_13970026;
+    var outOfBounds_13975002 = [false];
     L4: do {
-      var __13935004 = 0;
-      if (!((newPiece_13935001.kind == 0))) {
-      __13935004 = newPiece_13935001.pos;
+      var __13975004 = 0;
+      if (!((newPiece_13975001.kind == 0))) {
+      __13975004 = newPiece_13975001.pos;
       }
       
       L5: do {
-        var x_14895844 = null;
-        var x_14895844_Idx = 0;
-        var y_14895845 = null;
-        var y_14895845_Idx = 0;
-        var colontmp__14895846 = [];
-        colontmp__14895846 = pieceExtensions_13785367[newPiece_13935001.kind];
-        var i_14895847 = 0;
-        var L_14895848 = (colontmp__14895846).length;
+        var x_14955844 = null;
+        var x_14955844_Idx = 0;
+        var y_14955845 = null;
+        var y_14955845_Idx = 0;
+        var colontmp__14955846 = [];
+        colontmp__14955846 = pieceExtensions_13785367[newPiece_13975001.kind];
+        var i_14955847 = 0;
+        var L_14955848 = (colontmp__14955846).length;
         L6: do {
             L7: while (true) {
-            if (!(i_14895847 < L_14895848)) break L7;
-              x_14895844 = colontmp__14895846[i_14895847]; x_14895844_Idx = "Field0";
-              y_14895845 = colontmp__14895846[i_14895847]; y_14895845_Idx = "Field1";
-              var colontmp__14895883 = plusRot_13787251(newPiece_13935001.pos, x_14895844[x_14895844_Idx], y_14895845[y_14895845_Idx], newPiece_13935001.rot);
-              var col_14895850 = colontmp__14895883["Field0"];
-              var row_14895851 = colontmp__14895883["Field1"];
-              if ((contains_13805002(col_14895850) && contains_13810002(row_14895851))) {
-              __13935004 = coord_13785422(col_14895850, row_14895851);
+            if (!(i_14955847 < L_14955848)) break L7;
+              x_14955844 = colontmp__14955846[i_14955847]; x_14955844_Idx = "Field0";
+              y_14955845 = colontmp__14955846[i_14955847]; y_14955845_Idx = "Field1";
+              var colontmp__14955883 = plusRot_13787251(newPiece_13975001.pos, x_14955844[x_14955844_Idx], y_14955845[y_14955845_Idx], newPiece_13975001.rot);
+              var col_14955850 = colontmp__14955883["Field0"];
+              var row_14955851 = colontmp__14955883["Field1"];
+              if ((contains_13805002(col_14955850) && contains_13810002(row_14955851))) {
+              __13975004 = coord_13785422(col_14955850, row_14955851);
               }
               else {
-                outOfBounds_13935002[0] = true;
+                outOfBounds_13975002[0] = true;
                 break L5;
               }
               
-              i_14895847 += 1;
+              i_14955847 += 1;
             }
         } while(false);
       } while(false);
     } while(false);
-    var i_13935006 = 1;
+    var i_13975006 = 1;
     L8: do {
         L9: while (true) {
-        if (!outOfBounds_13935002[0]) break L9;
-          outOfBounds_13935002[0] = false;
-          var colontmp__14895888 = {Field0: column_13785500(newPiece_13935001.pos), Field1: row_13785517(newPiece_13935001.pos)};
-          var col0_13935008 = colontmp__14895888["Field0"];
-          var row0_13935009 = colontmp__14895888["Field1"];
-          var oneInside_13935010 = false;
-          if (contains_13805002((col0_13935008 - i_13935006))) {
-          oneInside_13935010 = true;
-          newPiece_13935001.pos = coord_13785422((col0_13935008 - i_13935006), row0_13935009);
+        if (!outOfBounds_13975002[0]) break L9;
+          outOfBounds_13975002[0] = false;
+          var colontmp__14955888 = {Field0: column_13785500(newPiece_13975001.pos), Field1: row_13785517(newPiece_13975001.pos)};
+          var col0_13975008 = colontmp__14955888["Field0"];
+          var row0_13975009 = colontmp__14955888["Field1"];
+          var oneInside_13975010 = false;
+          if (contains_13805002((col0_13975008 - i_13975006))) {
+          oneInside_13975010 = true;
+          newPiece_13975001.pos = coord_13785422((col0_13975008 - i_13975006), row0_13975009);
           L10: do {
-            var __13940009 = 0;
-            if (!((newPiece_13935001.kind == 0))) {
-            __13940009 = newPiece_13935001.pos;
+            var __13980009 = 0;
+            if (!((newPiece_13975001.kind == 0))) {
+            __13980009 = newPiece_13975001.pos;
             }
             
             L11: do {
-              var x_14895858 = null;
-              var x_14895858_Idx = 0;
-              var y_14895859 = null;
-              var y_14895859_Idx = 0;
-              var colontmp__14895860 = [];
-              colontmp__14895860 = pieceExtensions_13785367[newPiece_13935001.kind];
-              var i_14895861 = 0;
-              var L_14895862 = (colontmp__14895860).length;
+              var x_14955858 = null;
+              var x_14955858_Idx = 0;
+              var y_14955859 = null;
+              var y_14955859_Idx = 0;
+              var colontmp__14955860 = [];
+              colontmp__14955860 = pieceExtensions_13785367[newPiece_13975001.kind];
+              var i_14955861 = 0;
+              var L_14955862 = (colontmp__14955860).length;
               L12: do {
                   L13: while (true) {
-                  if (!(i_14895861 < L_14895862)) break L13;
-                    x_14895858 = colontmp__14895860[i_14895861]; x_14895858_Idx = "Field0";
-                    y_14895859 = colontmp__14895860[i_14895861]; y_14895859_Idx = "Field1";
-                    var colontmp__14895889 = plusRot_13787251(newPiece_13935001.pos, x_14895858[x_14895858_Idx], y_14895859[y_14895859_Idx], newPiece_13935001.rot);
-                    var col_14895864 = colontmp__14895889["Field0"];
-                    var row_14895865 = colontmp__14895889["Field1"];
-                    if ((contains_13805002(col_14895864) && contains_13810002(row_14895865))) {
-                    __13940009 = coord_13785422(col_14895864, row_14895865);
+                  if (!(i_14955861 < L_14955862)) break L13;
+                    x_14955858 = colontmp__14955860[i_14955861]; x_14955858_Idx = "Field0";
+                    y_14955859 = colontmp__14955860[i_14955861]; y_14955859_Idx = "Field1";
+                    var colontmp__14955889 = plusRot_13787251(newPiece_13975001.pos, x_14955858[x_14955858_Idx], y_14955859[y_14955859_Idx], newPiece_13975001.rot);
+                    var col_14955864 = colontmp__14955889["Field0"];
+                    var row_14955865 = colontmp__14955889["Field1"];
+                    if ((contains_13805002(col_14955864) && contains_13810002(row_14955865))) {
+                    __13980009 = coord_13785422(col_14955864, row_14955865);
                     }
                     else {
-                      outOfBounds_13935002[0] = true;
+                      outOfBounds_13975002[0] = true;
                       break L11;
                     }
                     
-                    i_14895861 += 1;
+                    i_14955861 += 1;
                   }
               } while(false);
             } while(false);
           } while(false);
           }
           else {
-            outOfBounds_13935002[0] = true;
+            outOfBounds_13975002[0] = true;
           }
           
-          if (outOfBounds_13935002[0]) {
-          outOfBounds_13935002[0] = false;
-          if (contains_13805002((col0_13935008 + i_13935006))) {
-          oneInside_13935010 = true;
-          newPiece_13935001.pos = coord_13785422((col0_13935008 + i_13935006), row0_13935009);
+          if (outOfBounds_13975002[0]) {
+          outOfBounds_13975002[0] = false;
+          if (contains_13805002((col0_13975008 + i_13975006))) {
+          oneInside_13975010 = true;
+          newPiece_13975001.pos = coord_13785422((col0_13975008 + i_13975006), row0_13975009);
           L14: do {
-            var __13945009 = 0;
-            if (!((newPiece_13935001.kind == 0))) {
-            __13945009 = newPiece_13935001.pos;
+            var __13985009 = 0;
+            if (!((newPiece_13975001.kind == 0))) {
+            __13985009 = newPiece_13975001.pos;
             }
             
             L15: do {
-              var x_14895871 = null;
-              var x_14895871_Idx = 0;
-              var y_14895872 = null;
-              var y_14895872_Idx = 0;
-              var colontmp__14895873 = [];
-              colontmp__14895873 = pieceExtensions_13785367[newPiece_13935001.kind];
-              var i_14895874 = 0;
-              var L_14895875 = (colontmp__14895873).length;
+              var x_14955871 = null;
+              var x_14955871_Idx = 0;
+              var y_14955872 = null;
+              var y_14955872_Idx = 0;
+              var colontmp__14955873 = [];
+              colontmp__14955873 = pieceExtensions_13785367[newPiece_13975001.kind];
+              var i_14955874 = 0;
+              var L_14955875 = (colontmp__14955873).length;
               L16: do {
                   L17: while (true) {
-                  if (!(i_14895874 < L_14895875)) break L17;
-                    x_14895871 = colontmp__14895873[i_14895874]; x_14895871_Idx = "Field0";
-                    y_14895872 = colontmp__14895873[i_14895874]; y_14895872_Idx = "Field1";
-                    var colontmp__14895890 = plusRot_13787251(newPiece_13935001.pos, x_14895871[x_14895871_Idx], y_14895872[y_14895872_Idx], newPiece_13935001.rot);
-                    var col_14895877 = colontmp__14895890["Field0"];
-                    var row_14895878 = colontmp__14895890["Field1"];
-                    if ((contains_13805002(col_14895877) && contains_13810002(row_14895878))) {
-                    __13945009 = coord_13785422(col_14895877, row_14895878);
+                  if (!(i_14955874 < L_14955875)) break L17;
+                    x_14955871 = colontmp__14955873[i_14955874]; x_14955871_Idx = "Field0";
+                    y_14955872 = colontmp__14955873[i_14955874]; y_14955872_Idx = "Field1";
+                    var colontmp__14955890 = plusRot_13787251(newPiece_13975001.pos, x_14955871[x_14955871_Idx], y_14955872[y_14955872_Idx], newPiece_13975001.rot);
+                    var col_14955877 = colontmp__14955890["Field0"];
+                    var row_14955878 = colontmp__14955890["Field1"];
+                    if ((contains_13805002(col_14955877) && contains_13810002(row_14955878))) {
+                    __13985009 = coord_13785422(col_14955877, row_14955878);
                     }
                     else {
-                      outOfBounds_13935002[0] = true;
+                      outOfBounds_13975002[0] = true;
                       break L15;
                     }
                     
-                    i_14895874 += 1;
+                    i_14955874 += 1;
                   }
               } while(false);
             } while(false);
           } while(false);
           }
           else {
-            outOfBounds_13935002[0] = true;
+            outOfBounds_13975002[0] = true;
           }
           
           }
           
-          if (oneInside_13935010) {
-          i_13935006 += 1;
+          if (oneInside_13975010) {
+          i_13975006 += 1;
           }
           else {
             break L8;
@@ -1294,113 +1365,113 @@ function rotate_13925014(state_13925016, forward_13925017) {
           
         }
     } while(false);
-    if (outOfBounds_13935002[0]) {
+    if (outOfBounds_13975002[0]) {
     break BeforeRet;
     }
     
     L18: do {
         L19: while (true) {
-        if (!overlaps_13815456(state_13925016.board, newPiece_13935001)) break L19;
-          newPiece_13935001.pos = (newPiece_13935001.pos - 10);
+        if (!overlaps_13815243(state_13965016.board, newPiece_13975001)) break L19;
+          newPiece_13975001.pos = (newPiece_13975001.pos - 10);
         }
     } while(false);
-    nimCopy(state_13925016.piece, newPiece_13935001, NTI13785377);
+    nimCopy(state_13965016.piece, newPiece_13975001, NTI13785377);
   } while (false);
 
   
 }
-function drop_13955014(state_13955016, spawned_13955018, spawned_13955018_Idx) {
-    var newPiece_13960001 = nimCopy(null, state_13955016.piece, NTI13785377);
-    var maxRow_13960003 = 0;
+function drop_13995014(state_13995016, spawned_13995018, spawned_13995018_Idx) {
+    var newPiece_14000001 = nimCopy(null, state_13995016.piece, NTI13785377);
+    var maxRow_14000003 = 0;
     L1: do {
-      var c_13965001 = 0;
-      if (!((state_13955016.piece.kind == 0))) {
-      c_13965001 = state_13955016.piece.pos;
-      if ((maxRow_13960003 < row_13785517(c_13965001))) {
-      maxRow_13960003 = row_13785517(c_13965001);
+      var c_14005001 = 0;
+      if (!((state_13995016.piece.kind == 0))) {
+      c_14005001 = state_13995016.piece.pos;
+      if ((maxRow_14000003 < row_13785517(c_14005001))) {
+      maxRow_14000003 = row_13785517(c_14005001);
       }
       
       }
       
       L2: do {
-        var x_14895894 = null;
-        var x_14895894_Idx = 0;
-        var y_14895895 = null;
-        var y_14895895_Idx = 0;
-        var colontmp__14895896 = [];
-        colontmp__14895896 = pieceExtensions_13785367[state_13955016.piece.kind];
-        var i_14895897 = 0;
-        var L_14895898 = (colontmp__14895896).length;
+        var x_14955894 = null;
+        var x_14955894_Idx = 0;
+        var y_14955895 = null;
+        var y_14955895_Idx = 0;
+        var colontmp__14955896 = [];
+        colontmp__14955896 = pieceExtensions_13785367[state_13995016.piece.kind];
+        var i_14955897 = 0;
+        var L_14955898 = (colontmp__14955896).length;
         L3: do {
             L4: while (true) {
-            if (!(i_14895897 < L_14895898)) break L4;
-              x_14895894 = colontmp__14895896[i_14895897]; x_14895894_Idx = "Field0";
-              y_14895895 = colontmp__14895896[i_14895897]; y_14895895_Idx = "Field1";
-              var colontmp__14895914 = plusRot_13787251(state_13955016.piece.pos, x_14895894[x_14895894_Idx], y_14895895[y_14895895_Idx], state_13955016.piece.rot);
-              var c_14895900 = colontmp__14895914["Field0"];
-              var r_14895901 = colontmp__14895914["Field1"];
-              c_13965001 = coord_13785422(c_14895900, r_14895901);
-              if ((maxRow_13960003 < row_13785517(c_13965001))) {
-              maxRow_13960003 = row_13785517(c_13965001);
+            if (!(i_14955897 < L_14955898)) break L4;
+              x_14955894 = colontmp__14955896[i_14955897]; x_14955894_Idx = "Field0";
+              y_14955895 = colontmp__14955896[i_14955897]; y_14955895_Idx = "Field1";
+              var colontmp__14955914 = plusRot_13787251(state_13995016.piece.pos, x_14955894[x_14955894_Idx], y_14955895[y_14955895_Idx], state_13995016.piece.rot);
+              var c_14955900 = colontmp__14955914["Field0"];
+              var r_14955901 = colontmp__14955914["Field1"];
+              c_14005001 = coord_13785422(c_14955900, r_14955901);
+              if ((maxRow_14000003 < row_13785517(c_14005001))) {
+              maxRow_14000003 = row_13785517(c_14005001);
               }
               
-              i_14895897 += 1;
+              i_14955897 += 1;
             }
         } while(false);
       } while(false);
     } while(false);
-    if ((maxRow_13960003 == 29)) {
-    spawned_13955018[spawned_13955018_Idx] = true;
+    if ((maxRow_14000003 == 29)) {
+    spawned_13995018[spawned_13995018_Idx] = true;
     }
     else {
-      newPiece_13960001.pos = (newPiece_13960001.pos + 10);
-      spawned_13955018[spawned_13955018_Idx] = overlaps_13815456(state_13955016.board, newPiece_13960001);
+      newPiece_14000001.pos = (newPiece_14000001.pos + 10);
+      spawned_13995018[spawned_13995018_Idx] = overlaps_13815243(state_13995016.board, newPiece_14000001);
     }
     
-    if (spawned_13955018[spawned_13955018_Idx]) {
-    if ((state_13955016.pieceDropRetry < state_13955016.pieceDropRetries)) {
-    state_13955016.pieceDropRetry += 1;
+    if (spawned_13995018[spawned_13995018_Idx]) {
+    if ((state_13995016.pieceDropRetry < state_13995016.pieceDropRetries)) {
+    state_13995016.pieceDropRetry += 1;
     }
     else {
-      state_13955016.pieceDropRetry = 0;
-      state_13955016.justHeld = false;
+      state_13995016.pieceDropRetry = 0;
+      state_13995016.justHeld = false;
       L5: do {
-        var c_14005001 = 0;
-        if (!((state_13955016.piece.kind == 0))) {
-        c_14005001 = state_13955016.piece.pos;
-        state_13955016.board[c_14005001] = state_13955016.piece.kind;
+        var c_14045001 = 0;
+        if (!((state_13995016.piece.kind == 0))) {
+        c_14045001 = state_13995016.piece.pos;
+        state_13995016.board[c_14045001] = state_13995016.piece.kind;
         }
         
         L6: do {
-          var x_14895906 = null;
-          var x_14895906_Idx = 0;
-          var y_14895907 = null;
-          var y_14895907_Idx = 0;
-          var colontmp__14895908 = [];
-          colontmp__14895908 = pieceExtensions_13785367[state_13955016.piece.kind];
-          var i_14895909 = 0;
-          var L_14895910 = (colontmp__14895908).length;
+          var x_14955906 = null;
+          var x_14955906_Idx = 0;
+          var y_14955907 = null;
+          var y_14955907_Idx = 0;
+          var colontmp__14955908 = [];
+          colontmp__14955908 = pieceExtensions_13785367[state_13995016.piece.kind];
+          var i_14955909 = 0;
+          var L_14955910 = (colontmp__14955908).length;
           L7: do {
               L8: while (true) {
-              if (!(i_14895909 < L_14895910)) break L8;
-                x_14895906 = colontmp__14895908[i_14895909]; x_14895906_Idx = "Field0";
-                y_14895907 = colontmp__14895908[i_14895909]; y_14895907_Idx = "Field1";
-                var colontmp__14895915 = plusRot_13787251(state_13955016.piece.pos, x_14895906[x_14895906_Idx], y_14895907[y_14895907_Idx], state_13955016.piece.rot);
-                var c_14895912 = colontmp__14895915["Field0"];
-                var r_14895913 = colontmp__14895915["Field1"];
-                c_14005001 = coord_13785422(c_14895912, r_14895913);
-                state_13955016.board[c_14005001] = state_13955016.piece.kind;
-                i_14895909 += 1;
+              if (!(i_14955909 < L_14955910)) break L8;
+                x_14955906 = colontmp__14955908[i_14955909]; x_14955906_Idx = "Field0";
+                y_14955907 = colontmp__14955908[i_14955909]; y_14955907_Idx = "Field1";
+                var colontmp__14955915 = plusRot_13787251(state_13995016.piece.pos, x_14955906[x_14955906_Idx], y_14955907[y_14955907_Idx], state_13995016.piece.rot);
+                var c_14955912 = colontmp__14955915["Field0"];
+                var r_14955913 = colontmp__14955915["Field1"];
+                c_14045001 = coord_13785422(c_14955912, r_14955913);
+                state_13995016.board[c_14045001] = state_13995016.piece.kind;
+                i_14955909 += 1;
               }
           } while(false);
         } while(false);
       } while(false);
-      spawnPiece_13870084(state_13955016, nextPiece_13825222(state_13955016));
+      spawnPiece_13910084(state_13995016, nextPiece_13865062(state_13995016));
     }
     
     }
     else {
-      nimCopy(state_13955016.piece, newPiece_13960001, NTI13785377);
+      nimCopy(state_13995016.piece, newPiece_14000001, NTI13785377);
     }
     
 
@@ -1412,7 +1483,7 @@ function setVolume_12525043(music_12525045, vol_12525046) {
 
   
 }
-function key_14045024(state_14045026, event_14045027) {
+function key_14085024(state_14085026, event_14085027) {
         var Tmp1;
         var Tmp2;
         var Tmp3;
@@ -1439,156 +1510,171 @@ function key_14045024(state_14045026, event_14045027) {
         var Tmp28;
               var Tmp31;
         var Tmp32;
+        var Tmp33;
+        var Tmp34;
+        var Tmp35;
 
-    switch (state_14045026.kind) {
+    switch (state_14085026.kind) {
     case 1:
-        if (event_14045027.ctrlKey) Tmp3 = true; else {          Tmp3 = event_14045027.metaKey;        }        if (Tmp3) Tmp2 = true; else {          Tmp2 = event_14045027.shiftKey;        }        if (Tmp2) Tmp1 = true; else {          Tmp1 = event_14045027.altKey;        }      if (!(Tmp1)) {
-      switch (toJSStr(cstrToNimstr(event_14045027.key))) {
+        if (event_14085027.ctrlKey) Tmp3 = true; else {          Tmp3 = event_14085027.metaKey;        }        if (Tmp3) Tmp2 = true; else {          Tmp2 = event_14085027.shiftKey;        }        if (Tmp2) Tmp1 = true; else {          Tmp1 = event_14085027.altKey;        }      if (!(Tmp1)) {
+      switch (toJSStr(cstrToNimstr(event_14085027.key))) {
       case "Escape":
         break;
       default: 
-        finish_14030066(state_14045026);
-        nimCopy(state_14045026, {kind: 2, initial: ({background: null}), tetris: ({board: arrayConstr(300, 0, NTI13745013), nextPieces: [({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0})], piece: ({kind: 0, pos: 0, rot: 0}), pieceDropTicking: false, pieceDropTick: 0, pieceDropTime: 0, pieceDropRetry: 0, pieceDropRetries: 0, holdPiece: ({kind: 0, pos: 0, rot: 0}), justHeld: false})}, NTI14020063);
-        init_14020069(state_14045026);
+        finish_14070066(state_14085026);
+        nimCopy(state_14085026, {kind: 2, initial: ({background: null}), tetris: ({board: arrayConstr(300, 0, NTI13745013), nextPieces: [({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0})], piece: ({kind: 0, pos: 0, rot: 0}), pieceDropTicking: false, pieceDropTick: 0, pieceDropTime: 0, pieceDropTickMultiplier: 0, pieceDropRetry: 0, pieceDropRetries: 0, holdPiece: ({kind: 0, pos: 0, rot: 0}), justHeld: false, randBuffer: [0, 0, 0, 0, 0, 0, 0], randBufferPos: 0})}, NTI14060072);
+        init_14060078(state_14085026);
         break;
       }
       }
       
       break;
     case 2:
-      switch (toJSStr(cstrToNimstr(event_14045027.key))) {
+      switch (toJSStr(cstrToNimstr(event_14085027.key))) {
       case "x":
-        var Tmp4 = state_14045026;
-        if (ConstSet12[Tmp4.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        rotate_13925014(Tmp4.tetris, true);
+        var Tmp4 = state_14085026;
+        if (ConstSet15[Tmp4.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        rotate_13965014(Tmp4.tetris, true);
         break;
       case "z":
-        var Tmp5 = state_14045026;
-        if (ConstSet13[Tmp5.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        rotate_13925014(Tmp5.tetris, false);
+        var Tmp5 = state_14085026;
+        if (ConstSet16[Tmp5.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        rotate_13965014(Tmp5.tetris, false);
         break;
       case "c":
-          var Tmp6 = state_14045026;
-          if (ConstSet14[Tmp6.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+          var Tmp6 = state_14085026;
+          if (ConstSet17[Tmp6.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
         if (!(Tmp6.tetris.justHeld)) {
-        var Tmp7 = state_14045026;
-        if (ConstSet15[Tmp7.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp7 = state_14085026;
+        if (ConstSet18[Tmp7.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
         Tmp7.tetris.justHeld = true;
-          var Tmp9 = state_14045026;
-          if (ConstSet16[Tmp9.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+          var Tmp9 = state_14085026;
+          if (ConstSet19[Tmp9.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
         if (!((Tmp9.tetris.holdPiece.kind == 0))) {
-        var Tmp10 = state_14045026;
-        if (ConstSet17[Tmp10.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp10 = state_14085026;
+        if (ConstSet20[Tmp10.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
         Tmp8 = Tmp10.tetris.holdPiece;
         }
         else {
-          var Tmp11 = state_14045026;
-          if (ConstSet18[Tmp11.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        Tmp8 = nextPiece_13825222(Tmp11.tetris);
+          var Tmp11 = state_14085026;
+          if (ConstSet21[Tmp11.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        Tmp8 = nextPiece_13865062(Tmp11.tetris);
         }
         
-        var oldHoldPiece_14090004 = nimCopy(null, Tmp8, NTI13785377);
-        var Tmp12 = state_14045026;
-        if (ConstSet19[Tmp12.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        var Tmp13 = state_14045026;
-        if (ConstSet20[Tmp13.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var oldHoldPiece_14130004 = nimCopy(null, Tmp8, NTI13785377);
+        var Tmp12 = state_14085026;
+        if (ConstSet22[Tmp12.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp13 = state_14085026;
+        if (ConstSet23[Tmp13.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
         nimCopy(Tmp12.tetris.holdPiece, Tmp13.tetris.piece, NTI13785377);
-        var Tmp14 = state_14045026;
-        if (ConstSet21[Tmp14.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        var minX_14105002 = column_13785500(Tmp14.tetris.holdPiece.pos);
-        var Tmp15 = state_14045026;
-        if (ConstSet22[Tmp15.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        var minY_14110002 = row_13785517(Tmp15.tetris.holdPiece.pos);
+        var Tmp14 = state_14085026;
+        if (ConstSet24[Tmp14.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var minX_14145002 = column_13785500(Tmp14.tetris.holdPiece.pos);
+        var Tmp15 = state_14085026;
+        if (ConstSet25[Tmp15.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var minY_14150002 = row_13785517(Tmp15.tetris.holdPiece.pos);
         L16: do {
-          var c_14115002 = 0;
-          var colontmp__14895817 = ({kind: 0, pos: 0, rot: 0});
-          var Tmp17 = state_14045026;
-          if (ConstSet23[Tmp17.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-          nimCopy(colontmp__14895817, Tmp17.tetris.holdPiece, NTI13785377);
-          if (!((colontmp__14895817.kind == 0))) {
-          c_14115002 = colontmp__14895817.pos;
-          if ((column_13785500(c_14115002) < minX_14105002)) {
-          minX_14105002 = column_13785500(c_14115002);
+          var c_14155002 = 0;
+          var colontmp__14955817 = ({kind: 0, pos: 0, rot: 0});
+          var Tmp17 = state_14085026;
+          if (ConstSet26[Tmp17.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+          nimCopy(colontmp__14955817, Tmp17.tetris.holdPiece, NTI13785377);
+          if (!((colontmp__14955817.kind == 0))) {
+          c_14155002 = colontmp__14955817.pos;
+          if ((column_13785500(c_14155002) < minX_14145002)) {
+          minX_14145002 = column_13785500(c_14155002);
           }
           
-          if ((row_13785517(c_14115002) < minY_14110002)) {
-          minY_14110002 = row_13785517(c_14115002);
+          if ((row_13785517(c_14155002) < minY_14150002)) {
+          minY_14150002 = row_13785517(c_14155002);
           }
           
           }
           
           L18: do {
-            var x_14895819 = null;
-            var x_14895819_Idx = 0;
-            var y_14895820 = null;
-            var y_14895820_Idx = 0;
-            var colontmp__14895821 = [];
-            colontmp__14895821 = pieceExtensions_13785367[colontmp__14895817.kind];
-            var i_14895822 = 0;
-            var L_14895823 = (colontmp__14895821).length;
+            var x_14955819 = null;
+            var x_14955819_Idx = 0;
+            var y_14955820 = null;
+            var y_14955820_Idx = 0;
+            var colontmp__14955821 = [];
+            colontmp__14955821 = pieceExtensions_13785367[colontmp__14955817.kind];
+            var i_14955822 = 0;
+            var L_14955823 = (colontmp__14955821).length;
             L19: do {
                 L20: while (true) {
-                if (!(i_14895822 < L_14895823)) break L20;
-                  x_14895819 = colontmp__14895821[i_14895822]; x_14895819_Idx = "Field0";
-                  y_14895820 = colontmp__14895821[i_14895822]; y_14895820_Idx = "Field1";
-                  var colontmp__14895891 = plusRot_13787251(colontmp__14895817.pos, x_14895819[x_14895819_Idx], y_14895820[y_14895820_Idx], colontmp__14895817.rot);
-                  var c_14895825 = colontmp__14895891["Field0"];
-                  var r_14895826 = colontmp__14895891["Field1"];
-                  c_14115002 = coord_13785422(c_14895825, r_14895826);
-                  if ((column_13785500(c_14115002) < minX_14105002)) {
-                  minX_14105002 = column_13785500(c_14115002);
+                if (!(i_14955822 < L_14955823)) break L20;
+                  x_14955819 = colontmp__14955821[i_14955822]; x_14955819_Idx = "Field0";
+                  y_14955820 = colontmp__14955821[i_14955822]; y_14955820_Idx = "Field1";
+                  var colontmp__14955891 = plusRot_13787251(colontmp__14955817.pos, x_14955819[x_14955819_Idx], y_14955820[y_14955820_Idx], colontmp__14955817.rot);
+                  var c_14955825 = colontmp__14955891["Field0"];
+                  var r_14955826 = colontmp__14955891["Field1"];
+                  c_14155002 = coord_13785422(c_14955825, r_14955826);
+                  if ((column_13785500(c_14155002) < minX_14145002)) {
+                  minX_14145002 = column_13785500(c_14155002);
                   }
                   
-                  if ((row_13785517(c_14115002) < minY_14110002)) {
-                  minY_14110002 = row_13785517(c_14115002);
+                  if ((row_13785517(c_14155002) < minY_14150002)) {
+                  minY_14150002 = row_13785517(c_14155002);
                   }
                   
-                  i_14895822 += 1;
+                  i_14955822 += 1;
                 }
             } while(false);
           } while(false);
         } while(false);
-        var Tmp21 = state_14045026;
-        if (ConstSet24[Tmp21.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        var Tmp22 = state_14045026;
-        if (ConstSet25[Tmp22.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        var Tmp23 = state_14045026;
-        if (ConstSet26[Tmp23.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        Tmp21.tetris.holdPiece.pos = coord_13785422((column_13785500(Tmp22.tetris.holdPiece.pos) - minX_14105002), (row_13785517(Tmp23.tetris.holdPiece.pos) - minY_14110002));
-        var Tmp24 = state_14045026;
-        if (ConstSet27[Tmp24.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        spawnPiece_13870084(Tmp24.tetris, oldHoldPiece_14090004);
+        var Tmp21 = state_14085026;
+        if (ConstSet27[Tmp21.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp22 = state_14085026;
+        if (ConstSet28[Tmp22.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp23 = state_14085026;
+        if (ConstSet29[Tmp23.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        Tmp21.tetris.holdPiece.pos = coord_13785422((column_13785500(Tmp22.tetris.holdPiece.pos) - minX_14145002), (row_13785517(Tmp23.tetris.holdPiece.pos) - minY_14150002));
+        var Tmp24 = state_14085026;
+        if (ConstSet30[Tmp24.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        spawnPiece_13910084(Tmp24.tetris, oldHoldPiece_14130004);
         }
         
         break;
       case "ArrowDown":
       case "Down":
-        var Tmp25 = state_14045026;
-        if (ConstSet28[Tmp25.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp25 = state_14085026;
+        if (ConstSet31[Tmp25.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
         Tmp25.tetris.pieceDropTime = 10;
-        var Tmp26 = state_14045026;
-        if (ConstSet29[Tmp26.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp26 = state_14085026;
+        if (ConstSet32[Tmp26.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
         Tmp26.tetris.pieceDropRetries = 3;
         break;
       case "ArrowUp":
       case "Up":
-        var Tmp27 = state_14045026;
-        if (ConstSet30[Tmp27.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        var Tmp28 = state_14045026;
-        if (ConstSet31[Tmp28.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp27 = state_14085026;
+        if (ConstSet33[Tmp27.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp28 = state_14085026;
+        if (ConstSet34[Tmp28.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
         Tmp27.tetris.pieceDropRetry = Tmp28.tetris.pieceDropRetries;
-        var spawned_14150002 = [false];
+        var spawned_14190002 = [false];
         L29: do {
             L30: while (true) {
-            if (!!(spawned_14150002[0])) break L30;
-              var Tmp31 = state_14045026;
-              if (ConstSet32[Tmp31.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-              drop_13955014(Tmp31.tetris, spawned_14150002, 0);
+            if (!!(spawned_14190002[0])) break L30;
+              var Tmp31 = state_14085026;
+              if (ConstSet35[Tmp31.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+              drop_13995014(Tmp31.tetris, spawned_14190002, 0);
             }
         } while(false);
-        var Tmp32 = state_14045026;
-        if (ConstSet33[Tmp32.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp32 = state_14085026;
+        if (ConstSet36[Tmp32.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
         Tmp32.tetris.pieceDropTick = 0;
+        break;
+      case "d":
+        var Tmp33 = state_14085026;
+        if (ConstSet37[Tmp33.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        Tmp33.tetris.pieceDropTickMultiplier += 1;
+        break;
+      case "s":
+        var Tmp34 = state_14085026;
+        if (ConstSet38[Tmp34.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp35 = state_14085026;
+        if (ConstSet39[Tmp35.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        Tmp34.tetris.pieceDropTickMultiplier = nimMax(0, (Tmp35.tetris.pieceDropTickMultiplier - 1));
         break;
       case "i":
       case "ı":
@@ -1600,9 +1686,9 @@ function key_14045024(state_14045026, event_14045027) {
         setVolume_12525043(currentMusic_12550201[0], ((musicVolume_12550203[0])|0));
         break;
       case "Escape":
-        finish_14030066(state_14045026);
-        nimCopy(state_14045026, {kind: 1, initial: ({background: null}), tetris: ({board: arrayConstr(300, 0, NTI13745013), nextPieces: [({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0})], piece: ({kind: 0, pos: 0, rot: 0}), pieceDropTicking: false, pieceDropTick: 0, pieceDropTime: 0, pieceDropRetry: 0, pieceDropRetries: 0, holdPiece: ({kind: 0, pos: 0, rot: 0}), justHeld: false})}, NTI14020063);
-        init_14020069(state_14045026);
+        finish_14070066(state_14085026);
+        nimCopy(state_14085026, {kind: 1, initial: ({background: null}), tetris: ({board: arrayConstr(300, 0, NTI13745013), nextPieces: [({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0})], piece: ({kind: 0, pos: 0, rot: 0}), pieceDropTicking: false, pieceDropTick: 0, pieceDropTime: 0, pieceDropTickMultiplier: 0, pieceDropRetry: 0, pieceDropRetries: 0, holdPiece: ({kind: 0, pos: 0, rot: 0}), justHeld: false, randBuffer: [0, 0, 0, 0, 0, 0, 0], randBufferPos: 0})}, NTI14060072);
+        init_14060078(state_14085026);
         break;
       default: 
         break;
@@ -1616,7 +1702,7 @@ function key_14045024(state_14045026, event_14045027) {
 
   
 }
-function keyRepeat_14170046(state_14170048, event_14170049) {
+function keyRepeat_14225046(state_14225048, event_14225049) {
           var Tmp2;
         var Tmp6;
           var Tmp7;
@@ -1626,64 +1712,64 @@ function keyRepeat_14170046(state_14170048, event_14170049) {
           var Tmp15;
         var Tmp16;
 
-    switch (state_14170048.kind) {
+    switch (state_14225048.kind) {
     case 2:
-      switch (toJSStr(cstrToNimstr(event_14170049.key))) {
+      switch (toJSStr(cstrToNimstr(event_14225049.key))) {
       case "ArrowLeft":
       case "Left":
-        var minCol_14175007 = 9;
+        var minCol_14230007 = 9;
         L1: do {
-          var c_14180002 = 0;
-          var colontmp__14895918 = ({kind: 0, pos: 0, rot: 0});
-          var Tmp2 = state_14170048;
-          if (ConstSet34[Tmp2.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-          nimCopy(colontmp__14895918, Tmp2.tetris.piece, NTI13785377);
-          if (!((colontmp__14895918.kind == 0))) {
-          c_14180002 = colontmp__14895918.pos;
-          if ((column_13785500(c_14180002) < minCol_14175007)) {
-          minCol_14175007 = column_13785500(c_14180002);
+          var c_14235002 = 0;
+          var colontmp__14955918 = ({kind: 0, pos: 0, rot: 0});
+          var Tmp2 = state_14225048;
+          if (ConstSet40[Tmp2.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+          nimCopy(colontmp__14955918, Tmp2.tetris.piece, NTI13785377);
+          if (!((colontmp__14955918.kind == 0))) {
+          c_14235002 = colontmp__14955918.pos;
+          if ((column_13785500(c_14235002) < minCol_14230007)) {
+          minCol_14230007 = column_13785500(c_14235002);
           }
           
           }
           
           L3: do {
-            var x_14895920 = null;
-            var x_14895920_Idx = 0;
-            var y_14895921 = null;
-            var y_14895921_Idx = 0;
-            var colontmp__14895922 = [];
-            colontmp__14895922 = pieceExtensions_13785367[colontmp__14895918.kind];
-            var i_14895923 = 0;
-            var L_14895924 = (colontmp__14895922).length;
+            var x_14955920 = null;
+            var x_14955920_Idx = 0;
+            var y_14955921 = null;
+            var y_14955921_Idx = 0;
+            var colontmp__14955922 = [];
+            colontmp__14955922 = pieceExtensions_13785367[colontmp__14955918.kind];
+            var i_14955923 = 0;
+            var L_14955924 = (colontmp__14955922).length;
             L4: do {
                 L5: while (true) {
-                if (!(i_14895923 < L_14895924)) break L5;
-                  x_14895920 = colontmp__14895922[i_14895923]; x_14895920_Idx = "Field0";
-                  y_14895921 = colontmp__14895922[i_14895923]; y_14895921_Idx = "Field1";
-                  var colontmp__14895943 = plusRot_13787251(colontmp__14895918.pos, x_14895920[x_14895920_Idx], y_14895921[y_14895921_Idx], colontmp__14895918.rot);
-                  var c_14895926 = colontmp__14895943["Field0"];
-                  var r_14895927 = colontmp__14895943["Field1"];
-                  c_14180002 = coord_13785422(c_14895926, r_14895927);
-                  if ((column_13785500(c_14180002) < minCol_14175007)) {
-                  minCol_14175007 = column_13785500(c_14180002);
+                if (!(i_14955923 < L_14955924)) break L5;
+                  x_14955920 = colontmp__14955922[i_14955923]; x_14955920_Idx = "Field0";
+                  y_14955921 = colontmp__14955922[i_14955923]; y_14955921_Idx = "Field1";
+                  var colontmp__14955943 = plusRot_13787251(colontmp__14955918.pos, x_14955920[x_14955920_Idx], y_14955921[y_14955921_Idx], colontmp__14955918.rot);
+                  var c_14955926 = colontmp__14955943["Field0"];
+                  var r_14955927 = colontmp__14955943["Field1"];
+                  c_14235002 = coord_13785422(c_14955926, r_14955927);
+                  if ((column_13785500(c_14235002) < minCol_14230007)) {
+                  minCol_14230007 = column_13785500(c_14235002);
                   }
                   
-                  i_14895923 += 1;
+                  i_14955923 += 1;
                 }
             } while(false);
           } while(false);
         } while(false);
-        if (!((minCol_14175007 == 0))) {
-        var Tmp6 = state_14170048;
-        if (ConstSet35[Tmp6.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        var newPiece_14190002 = nimCopy(null, Tmp6.tetris.piece, NTI13785377);
-        newPiece_14190002.pos = (newPiece_14190002.pos - 1);
-          var Tmp7 = state_14170048;
-          if (ConstSet36[Tmp7.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        if (!(overlaps_13815456(Tmp7.tetris.board, newPiece_14190002))) {
-        var Tmp8 = state_14170048;
-        if (ConstSet37[Tmp8.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        nimCopy(Tmp8.tetris.piece, newPiece_14190002, NTI13785377);
+        if (!((minCol_14230007 == 0))) {
+        var Tmp6 = state_14225048;
+        if (ConstSet41[Tmp6.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var newPiece_14245002 = nimCopy(null, Tmp6.tetris.piece, NTI13785377);
+        newPiece_14245002.pos = (newPiece_14245002.pos - 1);
+          var Tmp7 = state_14225048;
+          if (ConstSet42[Tmp7.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        if (!(overlaps_13815243(Tmp7.tetris.board, newPiece_14245002))) {
+        var Tmp8 = state_14225048;
+        if (ConstSet43[Tmp8.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        nimCopy(Tmp8.tetris.piece, newPiece_14245002, NTI13785377);
         }
         
         }
@@ -1691,59 +1777,59 @@ function keyRepeat_14170046(state_14170048, event_14170049) {
         break;
       case "ArrowRight":
       case "Right":
-        var maxCol_14200003 = 0;
+        var maxCol_14255003 = 0;
         L9: do {
-          var c_14205002 = 0;
-          var colontmp__14895931 = ({kind: 0, pos: 0, rot: 0});
-          var Tmp10 = state_14170048;
-          if (ConstSet38[Tmp10.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-          nimCopy(colontmp__14895931, Tmp10.tetris.piece, NTI13785377);
-          if (!((colontmp__14895931.kind == 0))) {
-          c_14205002 = colontmp__14895931.pos;
-          if ((maxCol_14200003 < column_13785500(c_14205002))) {
-          maxCol_14200003 = column_13785500(c_14205002);
+          var c_14260002 = 0;
+          var colontmp__14955931 = ({kind: 0, pos: 0, rot: 0});
+          var Tmp10 = state_14225048;
+          if (ConstSet44[Tmp10.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+          nimCopy(colontmp__14955931, Tmp10.tetris.piece, NTI13785377);
+          if (!((colontmp__14955931.kind == 0))) {
+          c_14260002 = colontmp__14955931.pos;
+          if ((maxCol_14255003 < column_13785500(c_14260002))) {
+          maxCol_14255003 = column_13785500(c_14260002);
           }
           
           }
           
           L11: do {
-            var x_14895933 = null;
-            var x_14895933_Idx = 0;
-            var y_14895934 = null;
-            var y_14895934_Idx = 0;
-            var colontmp__14895935 = [];
-            colontmp__14895935 = pieceExtensions_13785367[colontmp__14895931.kind];
-            var i_14895936 = 0;
-            var L_14895937 = (colontmp__14895935).length;
+            var x_14955933 = null;
+            var x_14955933_Idx = 0;
+            var y_14955934 = null;
+            var y_14955934_Idx = 0;
+            var colontmp__14955935 = [];
+            colontmp__14955935 = pieceExtensions_13785367[colontmp__14955931.kind];
+            var i_14955936 = 0;
+            var L_14955937 = (colontmp__14955935).length;
             L12: do {
                 L13: while (true) {
-                if (!(i_14895936 < L_14895937)) break L13;
-                  x_14895933 = colontmp__14895935[i_14895936]; x_14895933_Idx = "Field0";
-                  y_14895934 = colontmp__14895935[i_14895936]; y_14895934_Idx = "Field1";
-                  var colontmp__14895944 = plusRot_13787251(colontmp__14895931.pos, x_14895933[x_14895933_Idx], y_14895934[y_14895934_Idx], colontmp__14895931.rot);
-                  var c_14895939 = colontmp__14895944["Field0"];
-                  var r_14895940 = colontmp__14895944["Field1"];
-                  c_14205002 = coord_13785422(c_14895939, r_14895940);
-                  if ((maxCol_14200003 < column_13785500(c_14205002))) {
-                  maxCol_14200003 = column_13785500(c_14205002);
+                if (!(i_14955936 < L_14955937)) break L13;
+                  x_14955933 = colontmp__14955935[i_14955936]; x_14955933_Idx = "Field0";
+                  y_14955934 = colontmp__14955935[i_14955936]; y_14955934_Idx = "Field1";
+                  var colontmp__14955944 = plusRot_13787251(colontmp__14955931.pos, x_14955933[x_14955933_Idx], y_14955934[y_14955934_Idx], colontmp__14955931.rot);
+                  var c_14955939 = colontmp__14955944["Field0"];
+                  var r_14955940 = colontmp__14955944["Field1"];
+                  c_14260002 = coord_13785422(c_14955939, r_14955940);
+                  if ((maxCol_14255003 < column_13785500(c_14260002))) {
+                  maxCol_14255003 = column_13785500(c_14260002);
                   }
                   
-                  i_14895936 += 1;
+                  i_14955936 += 1;
                 }
             } while(false);
           } while(false);
         } while(false);
-        if (!((maxCol_14200003 == 9))) {
-        var Tmp14 = state_14170048;
-        if (ConstSet39[Tmp14.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        var newPiece_14220002 = nimCopy(null, Tmp14.tetris.piece, NTI13785377);
-        newPiece_14220002.pos = (newPiece_14220002.pos + 1);
-          var Tmp15 = state_14170048;
-          if (ConstSet40[Tmp15.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        if (!(overlaps_13815456(Tmp15.tetris.board, newPiece_14220002))) {
-        var Tmp16 = state_14170048;
-        if (ConstSet41[Tmp16.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        nimCopy(Tmp16.tetris.piece, newPiece_14220002, NTI13785377);
+        if (!((maxCol_14255003 == 9))) {
+        var Tmp14 = state_14225048;
+        if (ConstSet45[Tmp14.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var newPiece_14275002 = nimCopy(null, Tmp14.tetris.piece, NTI13785377);
+        newPiece_14275002.pos = (newPiece_14275002.pos + 1);
+          var Tmp15 = state_14225048;
+          if (ConstSet46[Tmp15.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        if (!(overlaps_13815243(Tmp15.tetris.board, newPiece_14275002))) {
+        var Tmp16 = state_14225048;
+        if (ConstSet47[Tmp16.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        nimCopy(Tmp16.tetris.piece, newPiece_14275002, NTI13785377);
         }
         
         }
@@ -1762,20 +1848,20 @@ function keyRepeat_14170046(state_14170048, event_14170049) {
 
   
 }
-function keyReleased_14230015(state_14230017, event_14230018) {
+function keyReleased_14285015(state_14285017, event_14285018) {
         var Tmp1;
         var Tmp2;
 
-    switch (state_14230017.kind) {
+    switch (state_14285017.kind) {
     case 2:
-      switch (toJSStr(cstrToNimstr(event_14230018.key))) {
+      switch (toJSStr(cstrToNimstr(event_14285018.key))) {
       case "ArrowDown":
       case "Down":
-        var Tmp1 = state_14230017;
-        if (ConstSet42[Tmp1.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp1 = state_14285017;
+        if (ConstSet48[Tmp1.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
         Tmp1.tetris.pieceDropTime = 120;
-        var Tmp2 = state_14230017;
-        if (ConstSet43[Tmp2.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp2 = state_14285017;
+        if (ConstSet49[Tmp2.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
         Tmp2.tetris.pieceDropRetries = 1;
         break;
       default: 
@@ -1791,8 +1877,8 @@ function keyReleased_14230015(state_14230017, event_14230018) {
 
   
 }
-function mouse_14245015(state_14245017, event_14245018) {
-    switch (state_14245017.kind) {
+function mouse_14300015(state_14300017, event_14300018) {
+    switch (state_14300017.kind) {
     case 1:
     case 2:
     case 3:
@@ -1803,8 +1889,8 @@ function mouse_14245015(state_14245017, event_14245018) {
 
   
 }
-function windowResize_14245032(state_14245034, event_14245035) {
-    switch (state_14245034.kind) {
+function windowResize_14300032(state_14300034, event_14300035) {
+    switch (state_14300034.kind) {
     case 1:
     case 2:
     case 3:
@@ -1815,47 +1901,47 @@ function windowResize_14245032(state_14245034, event_14245035) {
 
   
 }
-function addListeners_14245049(state_14245051) {
-    function HEX3Aanonymous_14245052(ev_14245054) {
-        var k_14245055 = ev_14245054;
-        if (!(k_14245055.repeat)) {
-        key_14045024(state_14245051, k_14245055);
+function addListeners_14300049(state_14300051) {
+    function HEX3Aanonymous_14300052(ev_14300054) {
+        var k_14300055 = ev_14300054;
+        if (!(k_14300055.repeat)) {
+        key_14085024(state_14300051, k_14300055);
         }
         
-        keyRepeat_14170046(state_14245051, k_14245055);
+        keyRepeat_14225046(state_14300051, k_14300055);
 
       
     }
-    function HEX3Aanonymous_14245099(ev_14245101) {
-        keyReleased_14230015(state_14245051, ev_14245101);
+    function HEX3Aanonymous_14300099(ev_14300101) {
+        keyReleased_14285015(state_14300051, ev_14300101);
 
       
     }
-    function HEX3Aanonymous_14245115(ev_14245117) {
-        mouse_14245015(state_14245051, ev_14245117);
+    function HEX3Aanonymous_14300115(ev_14300117) {
+        mouse_14300015(state_14300051, ev_14300117);
 
       
     }
-    function HEX3Aanonymous_14245147(ev_14245149) {
+    function HEX3Aanonymous_14300147(ev_14300149) {
         canvas_12550008.width = window.innerWidth;
         canvas_12550008.height = window.innerHeight;
-        windowResize_14245032(state_14245051, ev_14245149);
+        windowResize_14300032(state_14300051, ev_14300149);
 
       
     }
 
-    document.body.addEventListener("keydown", HEX3Aanonymous_14245052, false);
-    document.body.addEventListener("keyup", HEX3Aanonymous_14245099, false);
-    document.body.addEventListener("mousedown", HEX3Aanonymous_14245115, false);
+    document.body.addEventListener("keydown", HEX3Aanonymous_14300052, false);
+    document.body.addEventListener("keyup", HEX3Aanonymous_14300099, false);
+    document.body.addEventListener("mousedown", HEX3Aanonymous_14300115, false);
     canvas_12550008.width = window.innerWidth;
     canvas_12550008.height = window.innerHeight;
-    window.addEventListener("resize", HEX3Aanonymous_14245147, false);
+    window.addEventListener("resize", HEX3Aanonymous_14300147, false);
 
   
 }
-function drop_14020014(state_14020016) {
-    var spawned_14020047 = [false];
-    drop_13955014(state_14020016, spawned_14020047, 0);
+function drop_14060014(state_14060016) {
+    var spawned_14060056 = [false];
+    drop_13995014(state_14060016, spawned_14060056, 0);
 
   
 }
@@ -1897,24 +1983,24 @@ function overlapsOrOOB_13820034(board_13820039, piece_13820040) {
       }
       
       L3: do {
-        var x_14896174 = null;
-        var x_14896174_Idx = 0;
-        var y_14896175 = null;
-        var y_14896175_Idx = 0;
-        var colontmp__14896176 = [];
-        colontmp__14896176 = pieceExtensions_13785367[piece_13820040.kind];
-        var i_14896177 = 0;
-        var L_14896178 = (colontmp__14896176).length;
+        var x_14956174 = null;
+        var x_14956174_Idx = 0;
+        var y_14956175 = null;
+        var y_14956175_Idx = 0;
+        var colontmp__14956176 = [];
+        colontmp__14956176 = pieceExtensions_13785367[piece_13820040.kind];
+        var i_14956177 = 0;
+        var L_14956178 = (colontmp__14956176).length;
         L4: do {
             L5: while (true) {
-            if (!(i_14896177 < L_14896178)) break L5;
-              x_14896174 = colontmp__14896176[i_14896177]; x_14896174_Idx = "Field0";
-              y_14896175 = colontmp__14896176[i_14896177]; y_14896175_Idx = "Field1";
-              var colontmp__14896184 = plusRot_13787251(piece_13820040.pos, x_14896174[x_14896174_Idx], y_14896175[y_14896175_Idx], piece_13820040.rot);
-              var col_14896180 = colontmp__14896184["Field0"];
-              var row_14896181 = colontmp__14896184["Field1"];
-              if ((contains_13805002(col_14896180) && contains_13810002(row_14896181))) {
-              c_13820043 = coord_13785422(col_14896180, row_14896181);
+            if (!(i_14956177 < L_14956178)) break L5;
+              x_14956174 = colontmp__14956176[i_14956177]; x_14956174_Idx = "Field0";
+              y_14956175 = colontmp__14956176[i_14956177]; y_14956175_Idx = "Field1";
+              var colontmp__14956184 = plusRot_13787251(piece_13820040.pos, x_14956174[x_14956174_Idx], y_14956175[y_14956175_Idx], piece_13820040.rot);
+              var col_14956180 = colontmp__14956184["Field0"];
+              var row_14956181 = colontmp__14956184["Field1"];
+              if ((contains_13805002(col_14956180) && contains_13810002(row_14956181))) {
+              c_13820043 = coord_13785422(col_14956180, row_14956181);
                 if (result_13820041[0]) Tmp6 = true; else {                  Tmp6 = !((board_13820039[c_13820043] == 0));                }              if (Tmp6) {
               result_13820041[0] = true;
               break BeforeRet;
@@ -1926,7 +2012,7 @@ function overlapsOrOOB_13820034(board_13820039, piece_13820040) {
                 break L3;
               }
               
-              i_14896177 += 1;
+              i_14956177 += 1;
             }
         } while(false);
       } while(false);
@@ -1936,177 +2022,180 @@ function overlapsOrOOB_13820034(board_13820039, piece_13820040) {
   return result_13820041[0];
 
 }
-function singleLoop_14391307() {
+function singleLoop_14446312() {
         var Tmp1;
       var Tmp2;
         var Tmp3;
         var Tmp4;
-      var Tmp5;
+        var Tmp5;
       var Tmp6;
-                        var Tmp13;
+      var Tmp7;
                         var Tmp14;
-                              var Tmp21;
+                        var Tmp15;
                               var Tmp22;
-                                var Tmp23;
+                              var Tmp23;
                                 var Tmp24;
                                 var Tmp25;
                                 var Tmp26;
-        var Tmp29;
-      var Tmp33;
-        var Tmp35;
-        var Tmp37;
-        var Tmp48;
-      var Tmp49;
-        var Tmp50;
+                                var Tmp27;
+        var Tmp30;
+      var Tmp34;
+        var Tmp36;
+        var Tmp38;
+        var Tmp49;
+      var Tmp50;
         var Tmp51;
-      var Tmp52;
-        var Tmp53;
+        var Tmp52;
+      var Tmp53;
         var Tmp54;
-        var Tmp56;
-        var Tmp61;
-                      var Tmp71;
+        var Tmp55;
+        var Tmp57;
+        var Tmp62;
                       var Tmp72;
-      var Tmp73;
-              var Tmp76;
-                var Tmp77;
-      var Tmp82;
+                      var Tmp73;
+      var Tmp74;
+              var Tmp77;
+                var Tmp78;
       var Tmp83;
-        var Tmp85;
+      var Tmp84;
+        var Tmp86;
 
-    switch (game_14245401[0].kind) {
+    switch (game_14300401[0].kind) {
     case 2:
-        var Tmp1 = game_14245401[0];
-        if (ConstSet44[Tmp1.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp1 = game_14300401[0];
+        if (ConstSet50[Tmp1.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
       if (Tmp1.tetris.pieceDropTicking) {
-      var Tmp2 = game_14245401[0];
-      if (ConstSet45[Tmp2.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      var Tmp2 = game_14300401[0];
+      if (ConstSet51[Tmp2.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
       Tmp2.tetris.pieceDropTick += 1;
-        var Tmp3 = game_14245401[0];
-        if (ConstSet46[Tmp3.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        var Tmp4 = game_14245401[0];
-        if (ConstSet47[Tmp4.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      if ((Math.trunc((Tmp3.tetris.pieceDropTime * fps_12550205[0]) / 120) <= Tmp4.tetris.pieceDropTick)) {
-      var Tmp5 = game_14245401[0];
-      if (ConstSet48[Tmp5.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      drop_14020014(Tmp5.tetris);
-      var Tmp6 = game_14245401[0];
-      if (ConstSet49[Tmp6.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      Tmp6.tetris.pieceDropTick = 0;
+        var Tmp3 = game_14300401[0];
+        if (ConstSet52[Tmp3.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp4 = game_14300401[0];
+        if (ConstSet53[Tmp4.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        var Tmp5 = game_14300401[0];
+        if (ConstSet54[Tmp5.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      if ((Math.trunc((Tmp3.tetris.pieceDropTime * fps_12550205[0]) / 120) <= (Tmp4.tetris.pieceDropTick * Tmp5.tetris.pieceDropTickMultiplier))) {
+      var Tmp6 = game_14300401[0];
+      if (ConstSet55[Tmp6.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      drop_14060014(Tmp6.tetris);
+      var Tmp7 = game_14300401[0];
+      if (ConstSet56[Tmp7.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      Tmp7.tetris.pieceDropTick = 0;
       }
       
-      L7: do {
-        var r_14430010 = 0;
-        var i_14895958 = 0;
-        L8: do {
-            L9: while (true) {
-            if (!(i_14895958 < 30)) break L9;
-              r_14430010 = i_14895958;
-              var anyEmpty_14430011 = false;
-              L10: do {
-                var c_14430020 = 0;
-                var i_14895947 = 0;
-                L11: do {
-                    L12: while (true) {
-                    if (!(i_14895947 < 10)) break L12;
-                      c_14430020 = i_14895947;
-                        var Tmp13 = game_14245401[0];
-                        if (ConstSet50[Tmp13.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-                      if (((Tmp14 = Tmp13.tetris.board, Tmp14)[coord_13785422(c_14430020, r_14430010)] == 0)) {
-                      anyEmpty_14430011 = true;
-                      break L10;
+      L8: do {
+        var r_14490010 = 0;
+        var i_14955958 = 0;
+        L9: do {
+            L10: while (true) {
+            if (!(i_14955958 < 30)) break L10;
+              r_14490010 = i_14955958;
+              var anyEmpty_14490011 = false;
+              L11: do {
+                var c_14490020 = 0;
+                var i_14955947 = 0;
+                L12: do {
+                    L13: while (true) {
+                    if (!(i_14955947 < 10)) break L13;
+                      c_14490020 = i_14955947;
+                        var Tmp14 = game_14300401[0];
+                        if (ConstSet57[Tmp14.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+                      if (((Tmp15 = Tmp14.tetris.board, Tmp15)[coord_13785422(c_14490020, r_14490010)] == 0)) {
+                      anyEmpty_14490011 = true;
+                      break L11;
                       }
                       
-                      i_14895947 += 1;
+                      i_14955947 += 1;
                     }
                 } while(false);
               } while(false);
-              if (!(anyEmpty_14430011)) {
-              L15: do {
-                var ri_14435013 = 0;
-                var res_14895953 = r_14430010;
-                L16: do {
-                    L17: while (true) {
-                    if (!(0 <= res_14895953)) break L17;
-                      ri_14435013 = res_14895953;
-                      L18: do {
-                        var ci_14435022 = 0;
-                        var i_14895951 = 0;
-                        L19: do {
-                            L20: while (true) {
-                            if (!(i_14895951 < 10)) break L20;
-                              ci_14435022 = i_14895951;
-                              if ((ri_14435013 == 0)) {
-                              var Tmp21 = game_14245401[0];
-                              if (ConstSet51[Tmp21.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-                              (Tmp22 = Tmp21.tetris.board, Tmp22)[coord_13785422(ci_14435022, ri_14435013)] = 0;
+              if (!(anyEmpty_14490011)) {
+              L16: do {
+                var ri_14495013 = 0;
+                var res_14955953 = r_14490010;
+                L17: do {
+                    L18: while (true) {
+                    if (!(0 <= res_14955953)) break L18;
+                      ri_14495013 = res_14955953;
+                      L19: do {
+                        var ci_14495022 = 0;
+                        var i_14955951 = 0;
+                        L20: do {
+                            L21: while (true) {
+                            if (!(i_14955951 < 10)) break L21;
+                              ci_14495022 = i_14955951;
+                              if ((ri_14495013 == 0)) {
+                              var Tmp22 = game_14300401[0];
+                              if (ConstSet58[Tmp22.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+                              (Tmp23 = Tmp22.tetris.board, Tmp23)[coord_13785422(ci_14495022, ri_14495013)] = 0;
                               }
                               else {
-                                var Tmp23 = game_14245401[0];
-                                if (ConstSet52[Tmp23.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-                                var Tmp25 = game_14245401[0];
-                                if (ConstSet53[Tmp25.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-                                var Tmp27 = (Tmp24 = Tmp23.tetris.board, Tmp24)[coord_13785422(ci_14435022, ri_14435013)]; (Tmp24 = Tmp23.tetris.board, Tmp24)[coord_13785422(ci_14435022, ri_14435013)] = (Tmp26 = Tmp25.tetris.board, Tmp26)[coord_13785422(ci_14435022, (ri_14435013 - 1))]; (Tmp26 = Tmp25.tetris.board, Tmp26)[coord_13785422(ci_14435022, (ri_14435013 - 1))] = Tmp27;                              }
+                                var Tmp24 = game_14300401[0];
+                                if (ConstSet59[Tmp24.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+                                var Tmp26 = game_14300401[0];
+                                if (ConstSet60[Tmp26.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+                                var Tmp28 = (Tmp25 = Tmp24.tetris.board, Tmp25)[coord_13785422(ci_14495022, ri_14495013)]; (Tmp25 = Tmp24.tetris.board, Tmp25)[coord_13785422(ci_14495022, ri_14495013)] = (Tmp27 = Tmp26.tetris.board, Tmp27)[coord_13785422(ci_14495022, (ri_14495013 - 1))]; (Tmp27 = Tmp26.tetris.board, Tmp27)[coord_13785422(ci_14495022, (ri_14495013 - 1))] = Tmp28;                              }
                               
-                              i_14895951 += 1;
+                              i_14955951 += 1;
                             }
                         } while(false);
                       } while(false);
-                      res_14895953 -= 1;
+                      res_14955953 -= 1;
                     }
                 } while(false);
               } while(false);
               }
               
-              i_14895958 += 1;
+              i_14955958 += 1;
             }
         } while(false);
       } while(false);
-      var maxRow_14450010 = 0;
-      L28: do {
-        var c_14455002 = 0;
-        var colontmp__14895961 = ({kind: 0, pos: 0, rot: 0});
-        var Tmp29 = game_14245401[0];
-        if (ConstSet54[Tmp29.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        nimCopy(colontmp__14895961, Tmp29.tetris.piece, NTI13785377);
-        if (!((colontmp__14895961.kind == 0))) {
-        c_14455002 = colontmp__14895961.pos;
-        if ((maxRow_14450010 < row_13785517(c_14455002))) {
-        maxRow_14450010 = row_13785517(c_14455002);
+      var maxRow_14510010 = 0;
+      L29: do {
+        var c_14515002 = 0;
+        var colontmp__14955961 = ({kind: 0, pos: 0, rot: 0});
+        var Tmp30 = game_14300401[0];
+        if (ConstSet61[Tmp30.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        nimCopy(colontmp__14955961, Tmp30.tetris.piece, NTI13785377);
+        if (!((colontmp__14955961.kind == 0))) {
+        c_14515002 = colontmp__14955961.pos;
+        if ((maxRow_14510010 < row_13785517(c_14515002))) {
+        maxRow_14510010 = row_13785517(c_14515002);
         }
         
         }
         
-        L30: do {
-          var x_14895963 = null;
-          var x_14895963_Idx = 0;
-          var y_14895964 = null;
-          var y_14895964_Idx = 0;
-          var colontmp__14895965 = [];
-          colontmp__14895965 = pieceExtensions_13785367[colontmp__14895961.kind];
-          var i_14895966 = 0;
-          var L_14895967 = (colontmp__14895965).length;
-          L31: do {
-              L32: while (true) {
-              if (!(i_14895966 < L_14895967)) break L32;
-                x_14895963 = colontmp__14895965[i_14895966]; x_14895963_Idx = "Field0";
-                y_14895964 = colontmp__14895965[i_14895966]; y_14895964_Idx = "Field1";
-                var colontmp__14896166 = plusRot_13787251(colontmp__14895961.pos, x_14895963[x_14895963_Idx], y_14895964[y_14895964_Idx], colontmp__14895961.rot);
-                var c_14895969 = colontmp__14896166["Field0"];
-                var r_14895970 = colontmp__14896166["Field1"];
-                c_14455002 = coord_13785422(c_14895969, r_14895970);
-                if ((maxRow_14450010 < row_13785517(c_14455002))) {
-                maxRow_14450010 = row_13785517(c_14455002);
+        L31: do {
+          var x_14955963 = null;
+          var x_14955963_Idx = 0;
+          var y_14955964 = null;
+          var y_14955964_Idx = 0;
+          var colontmp__14955965 = [];
+          colontmp__14955965 = pieceExtensions_13785367[colontmp__14955961.kind];
+          var i_14955966 = 0;
+          var L_14955967 = (colontmp__14955965).length;
+          L32: do {
+              L33: while (true) {
+              if (!(i_14955966 < L_14955967)) break L33;
+                x_14955963 = colontmp__14955965[i_14955966]; x_14955963_Idx = "Field0";
+                y_14955964 = colontmp__14955965[i_14955966]; y_14955964_Idx = "Field1";
+                var colontmp__14956166 = plusRot_13787251(colontmp__14955961.pos, x_14955963[x_14955963_Idx], y_14955964[y_14955964_Idx], colontmp__14955961.rot);
+                var c_14955969 = colontmp__14956166["Field0"];
+                var r_14955970 = colontmp__14956166["Field1"];
+                c_14515002 = coord_13785422(c_14955969, r_14955970);
+                if ((maxRow_14510010 < row_13785517(c_14515002))) {
+                maxRow_14510010 = row_13785517(c_14515002);
                 }
                 
-                i_14895966 += 1;
+                i_14955966 += 1;
               }
           } while(false);
         } while(false);
       } while(false);
-      if ((maxRow_14450010 < 10)) {
-      finish_14030066(game_14245401[0]);
-      nimCopy(game_14245401[0], {kind: 1, initial: ({background: null}), tetris: ({board: arrayConstr(300, 0, NTI13745013), nextPieces: [({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0})], piece: ({kind: 0, pos: 0, rot: 0}), pieceDropTicking: false, pieceDropTick: 0, pieceDropTime: 0, pieceDropRetry: 0, pieceDropRetries: 0, holdPiece: ({kind: 0, pos: 0, rot: 0}), justHeld: false})}, NTI14020063);
-      init_14020069(game_14245401[0]);
+      if ((maxRow_14510010 < 10)) {
+      finish_14070066(game_14300401[0]);
+      nimCopy(game_14300401[0], {kind: 1, initial: ({background: null}), tetris: ({board: arrayConstr(300, 0, NTI13745013), nextPieces: [({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0})], piece: ({kind: 0, pos: 0, rot: 0}), pieceDropTicking: false, pieceDropTick: 0, pieceDropTime: 0, pieceDropTickMultiplier: 0, pieceDropRetry: 0, pieceDropRetries: 0, holdPiece: ({kind: 0, pos: 0, rot: 0}), justHeld: false, randBuffer: [0, 0, 0, 0, 0, 0, 0], randBufferPos: 0})}, NTI14060072);
+      init_14060078(game_14300401[0]);
       }
       
       }
@@ -2121,149 +2210,149 @@ function singleLoop_14391307() {
     context_12550009.fillStyle = "#00000000";
     context_12550009.strokeStyle = "#00000000";
     context_12550009.clearRect(0, 0, canvas_12550008.width, canvas_12550008.height);
-    var windowWidth_14485003 = ((canvas_12550008.width)|0);
-    var windowHeight_14485004 = ((canvas_12550008.height)|0);
-    switch (game_14245401[0].kind) {
+    var windowWidth_14545003 = ((canvas_12550008.width)|0);
+    var windowHeight_14545004 = ((canvas_12550008.height)|0);
+    switch (game_14300401[0].kind) {
     case 1:
-      var Tmp33 = game_14245401[0];
-      if (ConstSet55[Tmp33.kind]===undefined) { raiseFieldError(makeNimstrLit("\'initial\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      context_12550009.drawImage(Tmp33.initial.background, 0, 0, windowWidth_14485003, windowHeight_14485004);
+      var Tmp34 = game_14300401[0];
+      if (ConstSet62[Tmp34.kind]===undefined) { raiseFieldError(makeNimstrLit("\'initial\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      context_12550009.drawImage(Tmp34.initial.background, 0, 0, windowWidth_14545003, windowHeight_14545004);
       break;
     case 2:
-      L34: do {
-        var a_14500057 = HEX2F_2825648(((windowWidth_14485003)|0), 960);
-        var b_14500058 = HEX2F_2825648(((windowHeight_14485004)|0), 540);
-        if (!((a_14500057 == b_14500058))) {
-        var newRatio_14505001 = min_2540014(a_14500057, b_14500058);
-        Tmp35 = {Field0: (newRatio_14505001 * 9.6000000000000000e+002), Field1: (newRatio_14505001 * 5.4000000000000000e+002)};
+      L35: do {
+        var a_14560066 = HEX2F_2825648(((windowWidth_14545003)|0), 960);
+        var b_14560067 = HEX2F_2825648(((windowHeight_14545004)|0), 540);
+        if (!((a_14560066 == b_14560067))) {
+        var newRatio_14565001 = min_2540014(a_14560066, b_14560067);
+        Tmp36 = {Field0: (newRatio_14565001 * 9.6000000000000000e+002), Field1: (newRatio_14565001 * 5.4000000000000000e+002)};
         }
         else {
-        Tmp35 = {Field0: windowWidth_14485003, Field1: windowHeight_14485004};
+        Tmp36 = {Field0: windowWidth_14545003, Field1: windowHeight_14545004};
         }
         
       } while(false);
-      var colontmp__14896167 = nimCopy(null, Tmp35, NTI14505002);
-      var scaledWindowWidth_14505004 = colontmp__14896167["Field0"];
-      var scaledWindowHeight_14505005 = colontmp__14896167["Field1"];
-      var startX_14505006 = ((windowWidth_14485003 - scaledWindowWidth_14505004) / 2.0000000000000000e+000);
-      var startY_14505007 = ((windowHeight_14485004 - scaledWindowHeight_14505005) / 2.0000000000000000e+000);
-      var scaledTileWidth_14515001 = ((Math.ceil(((2.7000000000000000e+001 * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0);
-      var scaledTileHeight_14520001 = ((Math.ceil(((2.7000000000000000e+001 * scaledWindowHeight_14505005) / 5.4000000000000000e+002)))|0);
+      var colontmp__14956167 = nimCopy(null, Tmp36, NTI14565002);
+      var scaledWindowWidth_14565004 = colontmp__14956167["Field0"];
+      var scaledWindowHeight_14565005 = colontmp__14956167["Field1"];
+      var startX_14565006 = ((windowWidth_14545003 - scaledWindowWidth_14565004) / 2.0000000000000000e+000);
+      var startY_14565007 = ((windowHeight_14545004 - scaledWindowHeight_14565005) / 2.0000000000000000e+000);
+      var scaledTileWidth_14575001 = ((Math.ceil(((2.7000000000000000e+001 * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0);
+      var scaledTileHeight_14580001 = ((Math.ceil(((2.7000000000000000e+001 * scaledWindowHeight_14565005) / 5.4000000000000000e+002)))|0);
       context_12550009.fillStyle = "rgba(80,80,80,1.0)";
       context_12550009.strokeStyle = "rgba(80,80,80,1.0)";
       context_12550009.beginPath();
-      context_12550009.rect((((((startX_14505006)|0) + ((((7.0700000000000000e+002 * scaledWindowHeight_14505005) / 5.4000000000000000e+002))|0)))|0), (((startY_14505007 + ((4.5000000000000000e+001 * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0), ((Math.ceil(((7.5000000000000000e+001 * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0), ((Math.ceil(((2.5500000000000000e+002 * scaledWindowHeight_14505005) / 5.4000000000000000e+002)))|0));
+      context_12550009.rect((((((startX_14565006)|0) + ((((7.0700000000000000e+002 * scaledWindowHeight_14565005) / 5.4000000000000000e+002))|0)))|0), (((startY_14565007 + ((4.5000000000000000e+001 * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0), ((Math.ceil(((7.5000000000000000e+001 * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0), ((Math.ceil(((2.5500000000000000e+002 * scaledWindowHeight_14565005) / 5.4000000000000000e+002)))|0));
       context_12550009.stroke();
-      L36: do {
-        var i_14565066 = 0;
-        var p_14565067 = ({kind: 0, pos: 0, rot: 0});
-        var colontmp__14896033 = [({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0})];
-        var Tmp37 = game_14245401[0];
-        if (ConstSet56[Tmp37.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        nimCopy(colontmp__14896033, Tmp37.tetris.nextPieces, NTI13825211);
-        var i_14896038 = 0;
-        if ((i_14896038 <= 3)) {
-        L38: do {
-            L39: while (true) {
-            if (!true) break L39;
-              i_14565066 = i_14896038;
-              nimCopy(p_14565067, colontmp__14896033[i_14896038], NTI13785377);
-              context_12550009.fillStyle = pieceColors_13785202[p_14565067.kind];
-              context_12550009.strokeStyle = pieceColors_13785202[p_14565067.kind];
-              var maxX_14570002 = 0;
-              var maxY_14570003 = 0;
-              L40: do {
-                var c_14570004 = 0;
-                if (!((p_14565067.kind == 0))) {
-                c_14570004 = p_14565067.pos;
-                if ((maxX_14570002 < column_13785500(c_14570004))) {
-                maxX_14570002 = column_13785500(c_14570004);
+      L37: do {
+        var i_14625066 = 0;
+        var p_14625067 = ({kind: 0, pos: 0, rot: 0});
+        var colontmp__14956033 = [({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0}), ({kind: 0, pos: 0, rot: 0})];
+        var Tmp38 = game_14300401[0];
+        if (ConstSet63[Tmp38.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        nimCopy(colontmp__14956033, Tmp38.tetris.nextPieces, NTI13825211);
+        var i_14956038 = 0;
+        if ((i_14956038 <= 3)) {
+        L39: do {
+            L40: while (true) {
+            if (!true) break L40;
+              i_14625066 = i_14956038;
+              nimCopy(p_14625067, colontmp__14956033[i_14956038], NTI13785377);
+              context_12550009.fillStyle = pieceColors_13785202[p_14625067.kind];
+              context_12550009.strokeStyle = pieceColors_13785202[p_14625067.kind];
+              var maxX_14630002 = 0;
+              var maxY_14630003 = 0;
+              L41: do {
+                var c_14630004 = 0;
+                if (!((p_14625067.kind == 0))) {
+                c_14630004 = p_14625067.pos;
+                if ((maxX_14630002 < column_13785500(c_14630004))) {
+                maxX_14630002 = column_13785500(c_14630004);
                 }
                 
-                if ((maxY_14570003 < row_13785517(c_14570004))) {
-                maxY_14570003 = row_13785517(c_14570004);
+                if ((maxY_14630003 < row_13785517(c_14630004))) {
+                maxY_14630003 = row_13785517(c_14630004);
                 }
                 
                 }
                 
-                L41: do {
-                  var x_14895999 = null;
-                  var x_14895999_Idx = 0;
-                  var y_14896000 = null;
-                  var y_14896000_Idx = 0;
-                  var colontmp__14896001 = [];
-                  colontmp__14896001 = pieceExtensions_13785367[p_14565067.kind];
-                  var i_14896002 = 0;
-                  var L_14896003 = (colontmp__14896001).length;
-                  L42: do {
-                      L43: while (true) {
-                      if (!(i_14896002 < L_14896003)) break L43;
-                        x_14895999 = colontmp__14896001[i_14896002]; x_14895999_Idx = "Field0";
-                        y_14896000 = colontmp__14896001[i_14896002]; y_14896000_Idx = "Field1";
-                        var colontmp__14896168 = plusRot_13787251(p_14565067.pos, x_14895999[x_14895999_Idx], y_14896000[y_14896000_Idx], p_14565067.rot);
-                        var c_14896005 = colontmp__14896168["Field0"];
-                        var r_14896006 = colontmp__14896168["Field1"];
-                        c_14570004 = coord_13785422(c_14896005, r_14896006);
-                        if ((maxX_14570002 < column_13785500(c_14570004))) {
-                        maxX_14570002 = column_13785500(c_14570004);
+                L42: do {
+                  var x_14955999 = null;
+                  var x_14955999_Idx = 0;
+                  var y_14956000 = null;
+                  var y_14956000_Idx = 0;
+                  var colontmp__14956001 = [];
+                  colontmp__14956001 = pieceExtensions_13785367[p_14625067.kind];
+                  var i_14956002 = 0;
+                  var L_14956003 = (colontmp__14956001).length;
+                  L43: do {
+                      L44: while (true) {
+                      if (!(i_14956002 < L_14956003)) break L44;
+                        x_14955999 = colontmp__14956001[i_14956002]; x_14955999_Idx = "Field0";
+                        y_14956000 = colontmp__14956001[i_14956002]; y_14956000_Idx = "Field1";
+                        var colontmp__14956168 = plusRot_13787251(p_14625067.pos, x_14955999[x_14955999_Idx], y_14956000[y_14956000_Idx], p_14625067.rot);
+                        var c_14956005 = colontmp__14956168["Field0"];
+                        var r_14956006 = colontmp__14956168["Field1"];
+                        c_14630004 = coord_13785422(c_14956005, r_14956006);
+                        if ((maxX_14630002 < column_13785500(c_14630004))) {
+                        maxX_14630002 = column_13785500(c_14630004);
                         }
                         
-                        if ((maxY_14570003 < row_13785517(c_14570004))) {
-                        maxY_14570003 = row_13785517(c_14570004);
+                        if ((maxY_14630003 < row_13785517(c_14630004))) {
+                        maxY_14630003 = row_13785517(c_14630004);
                         }
                         
-                        i_14896002 += 1;
+                        i_14956002 += 1;
                       }
                   } while(false);
                 } while(false);
               } while(false);
-              var width_14580003 = (maxX_14570002 + 1);
-              var height_14580004 = (maxY_14570003 + 1);
-              var unit_14580005 = (4.5000000000000000e+001 / nimMax(width_14580003, height_14580004));
-              var tileWidth_14585001 = ((Math.ceil(((unit_14580005 * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0);
-              var tileHeight_14590001 = ((Math.ceil(((unit_14580005 * scaledWindowHeight_14505005) / 5.4000000000000000e+002)))|0);
-              var tileXStart_14590002 = (7.2200000000000000e+002 + ((4.5000000000000000e+001 - (width_14580003 * unit_14580005)) / 2.0000000000000000e+000));
-              var tileYStart_14590003 = ((6.0000000000000000e+001 + (i_14565066 * 6.0000000000000000e+001)) + ((4.5000000000000000e+001 - (height_14580004 * unit_14580005)) / 2.0000000000000000e+000));
-              L44: do {
-                var c_14590004 = 0;
-                if (!((p_14565067.kind == 0))) {
-                c_14590004 = p_14565067.pos;
-                var x_14600001 = (((startX_14505006 + ((((column_13785500(c_14590004) * unit_14580005) + tileXStart_14590002) * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0);
-                var y_14610001 = (((startY_14505007 + ((((row_13785517(c_14590004) * unit_14580005) + tileYStart_14590003) * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0);
-                context_12550009.fillRect(x_14600001, y_14610001, tileWidth_14585001, tileHeight_14590001);
+              var width_14640003 = (maxX_14630002 + 1);
+              var height_14640004 = (maxY_14630003 + 1);
+              var unit_14640005 = (4.5000000000000000e+001 / nimMax(width_14640003, height_14640004));
+              var tileWidth_14645001 = ((Math.ceil(((unit_14640005 * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0);
+              var tileHeight_14650001 = ((Math.ceil(((unit_14640005 * scaledWindowHeight_14565005) / 5.4000000000000000e+002)))|0);
+              var tileXStart_14650002 = (7.2200000000000000e+002 + ((4.5000000000000000e+001 - (width_14640003 * unit_14640005)) / 2.0000000000000000e+000));
+              var tileYStart_14650003 = ((6.0000000000000000e+001 + (i_14625066 * 6.0000000000000000e+001)) + ((4.5000000000000000e+001 - (height_14640004 * unit_14640005)) / 2.0000000000000000e+000));
+              L45: do {
+                var c_14650004 = 0;
+                if (!((p_14625067.kind == 0))) {
+                c_14650004 = p_14625067.pos;
+                var x_14660001 = (((startX_14565006 + ((((column_13785500(c_14650004) * unit_14640005) + tileXStart_14650002) * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0);
+                var y_14670001 = (((startY_14565007 + ((((row_13785517(c_14650004) * unit_14640005) + tileYStart_14650003) * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0);
+                context_12550009.fillRect(x_14660001, y_14670001, tileWidth_14645001, tileHeight_14650001);
                 }
                 
-                L45: do {
-                  var x_14896019 = null;
-                  var x_14896019_Idx = 0;
-                  var y_14896020 = null;
-                  var y_14896020_Idx = 0;
-                  var colontmp__14896021 = [];
-                  colontmp__14896021 = pieceExtensions_13785367[p_14565067.kind];
-                  var i_14896022 = 0;
-                  var L_14896023 = (colontmp__14896021).length;
-                  L46: do {
-                      L47: while (true) {
-                      if (!(i_14896022 < L_14896023)) break L47;
-                        x_14896019 = colontmp__14896021[i_14896022]; x_14896019_Idx = "Field0";
-                        y_14896020 = colontmp__14896021[i_14896022]; y_14896020_Idx = "Field1";
-                        var colontmp__14896169 = plusRot_13787251(p_14565067.pos, x_14896019[x_14896019_Idx], y_14896020[y_14896020_Idx], p_14565067.rot);
-                        var c_14896025 = colontmp__14896169["Field0"];
-                        var r_14896026 = colontmp__14896169["Field1"];
-                        c_14590004 = coord_13785422(c_14896025, r_14896026);
-                        var x_14896027 = (((startX_14505006 + ((((column_13785500(c_14590004) * unit_14580005) + tileXStart_14590002) * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0);
-                        var y_14896030 = (((startY_14505007 + ((((row_13785517(c_14590004) * unit_14580005) + tileYStart_14590003) * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0);
-                        context_12550009.fillRect(x_14896027, y_14896030, tileWidth_14585001, tileHeight_14590001);
-                        i_14896022 += 1;
+                L46: do {
+                  var x_14956019 = null;
+                  var x_14956019_Idx = 0;
+                  var y_14956020 = null;
+                  var y_14956020_Idx = 0;
+                  var colontmp__14956021 = [];
+                  colontmp__14956021 = pieceExtensions_13785367[p_14625067.kind];
+                  var i_14956022 = 0;
+                  var L_14956023 = (colontmp__14956021).length;
+                  L47: do {
+                      L48: while (true) {
+                      if (!(i_14956022 < L_14956023)) break L48;
+                        x_14956019 = colontmp__14956021[i_14956022]; x_14956019_Idx = "Field0";
+                        y_14956020 = colontmp__14956021[i_14956022]; y_14956020_Idx = "Field1";
+                        var colontmp__14956169 = plusRot_13787251(p_14625067.pos, x_14956019[x_14956019_Idx], y_14956020[y_14956020_Idx], p_14625067.rot);
+                        var c_14956025 = colontmp__14956169["Field0"];
+                        var r_14956026 = colontmp__14956169["Field1"];
+                        c_14650004 = coord_13785422(c_14956025, r_14956026);
+                        var x_14956027 = (((startX_14565006 + ((((column_13785500(c_14650004) * unit_14640005) + tileXStart_14650002) * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0);
+                        var y_14956030 = (((startY_14565007 + ((((row_13785517(c_14650004) * unit_14640005) + tileYStart_14650003) * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0);
+                        context_12550009.fillRect(x_14956027, y_14956030, tileWidth_14645001, tileHeight_14650001);
+                        i_14956022 += 1;
                       }
                   } while(false);
                 } while(false);
               } while(false);
-              if ((3 <= i_14896038)) {
-              break L38;
+              if ((3 <= i_14956038)) {
+              break L39;
               }
               
-              i_14896038 += 1;
+              i_14956038 += 1;
             }
         } while(false);
         }
@@ -2272,280 +2361,280 @@ function singleLoop_14391307() {
       context_12550009.fillStyle = "rgba(80,80,80,1.0)";
       context_12550009.strokeStyle = "rgba(80,80,80,1.0)";
       context_12550009.beginPath();
-      context_12550009.rect((((startX_14505006 + ((1.9500000000000000e+002 * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0), (((startY_14505007 + ((4.5000000000000000e+001 * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0), ((Math.ceil(((7.5000000000000000e+001 * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0), ((Math.ceil(((7.5000000000000000e+001 * scaledWindowHeight_14505005) / 5.4000000000000000e+002)))|0));
+      context_12550009.rect((((startX_14565006 + ((1.9500000000000000e+002 * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0), (((startY_14565007 + ((4.5000000000000000e+001 * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0), ((Math.ceil(((7.5000000000000000e+001 * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0), ((Math.ceil(((7.5000000000000000e+001 * scaledWindowHeight_14565005) / 5.4000000000000000e+002)))|0));
       context_12550009.stroke();
-        var Tmp48 = game_14245401[0];
-        if (ConstSet57[Tmp48.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      if (!((Tmp48.tetris.holdPiece.kind == 0))) {
-        var Tmp50 = game_14245401[0];
-        if (ConstSet58[Tmp50.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      if (Tmp50.tetris.justHeld) {
-      Tmp49 = "rgba(60,60,60,1.0)";
+        var Tmp49 = game_14300401[0];
+        if (ConstSet64[Tmp49.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      if (!((Tmp49.tetris.holdPiece.kind == 0))) {
+        var Tmp51 = game_14300401[0];
+        if (ConstSet65[Tmp51.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      if (Tmp51.tetris.justHeld) {
+      Tmp50 = "rgba(60,60,60,1.0)";
       }
       else {
-        var Tmp51 = game_14245401[0];
-        if (ConstSet59[Tmp51.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      Tmp49 = pieceColors_13785202[Tmp51.tetris.holdPiece.kind];
+        var Tmp52 = game_14300401[0];
+        if (ConstSet66[Tmp52.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      Tmp50 = pieceColors_13785202[Tmp52.tetris.holdPiece.kind];
       }
       
-      context_12550009.fillStyle = Tmp49;
-        var Tmp53 = game_14245401[0];
-        if (ConstSet60[Tmp53.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      if (Tmp53.tetris.justHeld) {
-      Tmp52 = "rgba(60,60,60,1.0)";
+      context_12550009.fillStyle = Tmp50;
+        var Tmp54 = game_14300401[0];
+        if (ConstSet67[Tmp54.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      if (Tmp54.tetris.justHeld) {
+      Tmp53 = "rgba(60,60,60,1.0)";
       }
       else {
-        var Tmp54 = game_14245401[0];
-        if (ConstSet61[Tmp54.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      Tmp52 = pieceColors_13785202[Tmp54.tetris.holdPiece.kind];
+        var Tmp55 = game_14300401[0];
+        if (ConstSet68[Tmp55.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      Tmp53 = pieceColors_13785202[Tmp55.tetris.holdPiece.kind];
       }
       
-      context_12550009.strokeStyle = Tmp52;
-      var maxX_14685002 = 0;
-      var maxY_14685003 = 0;
-      L55: do {
-        var c_14690002 = 0;
-        var colontmp__14896049 = ({kind: 0, pos: 0, rot: 0});
-        var Tmp56 = game_14245401[0];
-        if (ConstSet62[Tmp56.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        nimCopy(colontmp__14896049, Tmp56.tetris.holdPiece, NTI13785377);
-        if (!((colontmp__14896049.kind == 0))) {
-        c_14690002 = colontmp__14896049.pos;
-        if ((maxX_14685002 < column_13785500(c_14690002))) {
-        maxX_14685002 = column_13785500(c_14690002);
+      context_12550009.strokeStyle = Tmp53;
+      var maxX_14745002 = 0;
+      var maxY_14745003 = 0;
+      L56: do {
+        var c_14750002 = 0;
+        var colontmp__14956049 = ({kind: 0, pos: 0, rot: 0});
+        var Tmp57 = game_14300401[0];
+        if (ConstSet69[Tmp57.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        nimCopy(colontmp__14956049, Tmp57.tetris.holdPiece, NTI13785377);
+        if (!((colontmp__14956049.kind == 0))) {
+        c_14750002 = colontmp__14956049.pos;
+        if ((maxX_14745002 < column_13785500(c_14750002))) {
+        maxX_14745002 = column_13785500(c_14750002);
         }
         
-        if ((maxY_14685003 < row_13785517(c_14690002))) {
-        maxY_14685003 = row_13785517(c_14690002);
+        if ((maxY_14745003 < row_13785517(c_14750002))) {
+        maxY_14745003 = row_13785517(c_14750002);
         }
         
         }
         
-        L57: do {
-          var x_14896051 = null;
-          var x_14896051_Idx = 0;
-          var y_14896052 = null;
-          var y_14896052_Idx = 0;
-          var colontmp__14896053 = [];
-          colontmp__14896053 = pieceExtensions_13785367[colontmp__14896049.kind];
-          var i_14896054 = 0;
-          var L_14896055 = (colontmp__14896053).length;
-          L58: do {
-              L59: while (true) {
-              if (!(i_14896054 < L_14896055)) break L59;
-                x_14896051 = colontmp__14896053[i_14896054]; x_14896051_Idx = "Field0";
-                y_14896052 = colontmp__14896053[i_14896054]; y_14896052_Idx = "Field1";
-                var colontmp__14896170 = plusRot_13787251(colontmp__14896049.pos, x_14896051[x_14896051_Idx], y_14896052[y_14896052_Idx], colontmp__14896049.rot);
-                var c_14896057 = colontmp__14896170["Field0"];
-                var r_14896058 = colontmp__14896170["Field1"];
-                c_14690002 = coord_13785422(c_14896057, r_14896058);
-                if ((maxX_14685002 < column_13785500(c_14690002))) {
-                maxX_14685002 = column_13785500(c_14690002);
+        L58: do {
+          var x_14956051 = null;
+          var x_14956051_Idx = 0;
+          var y_14956052 = null;
+          var y_14956052_Idx = 0;
+          var colontmp__14956053 = [];
+          colontmp__14956053 = pieceExtensions_13785367[colontmp__14956049.kind];
+          var i_14956054 = 0;
+          var L_14956055 = (colontmp__14956053).length;
+          L59: do {
+              L60: while (true) {
+              if (!(i_14956054 < L_14956055)) break L60;
+                x_14956051 = colontmp__14956053[i_14956054]; x_14956051_Idx = "Field0";
+                y_14956052 = colontmp__14956053[i_14956054]; y_14956052_Idx = "Field1";
+                var colontmp__14956170 = plusRot_13787251(colontmp__14956049.pos, x_14956051[x_14956051_Idx], y_14956052[y_14956052_Idx], colontmp__14956049.rot);
+                var c_14956057 = colontmp__14956170["Field0"];
+                var r_14956058 = colontmp__14956170["Field1"];
+                c_14750002 = coord_13785422(c_14956057, r_14956058);
+                if ((maxX_14745002 < column_13785500(c_14750002))) {
+                maxX_14745002 = column_13785500(c_14750002);
                 }
                 
-                if ((maxY_14685003 < row_13785517(c_14690002))) {
-                maxY_14685003 = row_13785517(c_14690002);
+                if ((maxY_14745003 < row_13785517(c_14750002))) {
+                maxY_14745003 = row_13785517(c_14750002);
                 }
                 
-                i_14896054 += 1;
+                i_14956054 += 1;
               }
           } while(false);
         } while(false);
       } while(false);
-      var width_14700002 = (maxX_14685002 + 1);
-      var height_14700003 = (maxY_14685003 + 1);
-      var unit_14700004 = (4.5000000000000000e+001 / nimMax(width_14700002, height_14700003));
-      var tileWidth_14705001 = ((Math.ceil(((unit_14700004 * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0);
-      var tileHeight_14710001 = ((Math.ceil(((unit_14700004 * scaledWindowHeight_14505005) / 5.4000000000000000e+002)))|0);
-      var tileXStart_14710002 = (2.1000000000000000e+002 + ((4.5000000000000000e+001 - (width_14700002 * unit_14700004)) / 2.0000000000000000e+000));
-      var tileYStart_14710003 = (6.0000000000000000e+001 + ((4.5000000000000000e+001 - (height_14700003 * unit_14700004)) / 2.0000000000000000e+000));
-      L60: do {
-        var c_14715002 = 0;
-        var colontmp__14896069 = ({kind: 0, pos: 0, rot: 0});
-        var Tmp61 = game_14245401[0];
-        if (ConstSet63[Tmp61.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        nimCopy(colontmp__14896069, Tmp61.tetris.holdPiece, NTI13785377);
-        if (!((colontmp__14896069.kind == 0))) {
-        c_14715002 = colontmp__14896069.pos;
-        var x_14725001 = (((startX_14505006 + ((((column_13785500(c_14715002) * unit_14700004) + tileXStart_14710002) * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0);
-        var y_14735001 = (((startY_14505007 + ((((row_13785517(c_14715002) * unit_14700004) + tileYStart_14710003) * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0);
-        context_12550009.fillRect(x_14725001, y_14735001, tileWidth_14705001, tileHeight_14710001);
+      var width_14760002 = (maxX_14745002 + 1);
+      var height_14760003 = (maxY_14745003 + 1);
+      var unit_14760004 = (4.5000000000000000e+001 / nimMax(width_14760002, height_14760003));
+      var tileWidth_14765001 = ((Math.ceil(((unit_14760004 * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0);
+      var tileHeight_14770001 = ((Math.ceil(((unit_14760004 * scaledWindowHeight_14565005) / 5.4000000000000000e+002)))|0);
+      var tileXStart_14770002 = (2.1000000000000000e+002 + ((4.5000000000000000e+001 - (width_14760002 * unit_14760004)) / 2.0000000000000000e+000));
+      var tileYStart_14770003 = (6.0000000000000000e+001 + ((4.5000000000000000e+001 - (height_14760003 * unit_14760004)) / 2.0000000000000000e+000));
+      L61: do {
+        var c_14775002 = 0;
+        var colontmp__14956069 = ({kind: 0, pos: 0, rot: 0});
+        var Tmp62 = game_14300401[0];
+        if (ConstSet70[Tmp62.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        nimCopy(colontmp__14956069, Tmp62.tetris.holdPiece, NTI13785377);
+        if (!((colontmp__14956069.kind == 0))) {
+        c_14775002 = colontmp__14956069.pos;
+        var x_14785001 = (((startX_14565006 + ((((column_13785500(c_14775002) * unit_14760004) + tileXStart_14770002) * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0);
+        var y_14795001 = (((startY_14565007 + ((((row_13785517(c_14775002) * unit_14760004) + tileYStart_14770003) * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0);
+        context_12550009.fillRect(x_14785001, y_14795001, tileWidth_14765001, tileHeight_14770001);
         }
         
-        L62: do {
-          var x_14896071 = null;
-          var x_14896071_Idx = 0;
-          var y_14896072 = null;
-          var y_14896072_Idx = 0;
-          var colontmp__14896073 = [];
-          colontmp__14896073 = pieceExtensions_13785367[colontmp__14896069.kind];
-          var i_14896074 = 0;
-          var L_14896075 = (colontmp__14896073).length;
-          L63: do {
-              L64: while (true) {
-              if (!(i_14896074 < L_14896075)) break L64;
-                x_14896071 = colontmp__14896073[i_14896074]; x_14896071_Idx = "Field0";
-                y_14896072 = colontmp__14896073[i_14896074]; y_14896072_Idx = "Field1";
-                var colontmp__14896171 = plusRot_13787251(colontmp__14896069.pos, x_14896071[x_14896071_Idx], y_14896072[y_14896072_Idx], colontmp__14896069.rot);
-                var c_14896077 = colontmp__14896171["Field0"];
-                var r_14896078 = colontmp__14896171["Field1"];
-                c_14715002 = coord_13785422(c_14896077, r_14896078);
-                var x_14896079 = (((startX_14505006 + ((((column_13785500(c_14715002) * unit_14700004) + tileXStart_14710002) * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0);
-                var y_14896082 = (((startY_14505007 + ((((row_13785517(c_14715002) * unit_14700004) + tileYStart_14710003) * scaledWindowWidth_14505004) / 9.6000000000000000e+002)))|0);
-                context_12550009.fillRect(x_14896079, y_14896082, tileWidth_14705001, tileHeight_14710001);
-                i_14896074 += 1;
+        L63: do {
+          var x_14956071 = null;
+          var x_14956071_Idx = 0;
+          var y_14956072 = null;
+          var y_14956072_Idx = 0;
+          var colontmp__14956073 = [];
+          colontmp__14956073 = pieceExtensions_13785367[colontmp__14956069.kind];
+          var i_14956074 = 0;
+          var L_14956075 = (colontmp__14956073).length;
+          L64: do {
+              L65: while (true) {
+              if (!(i_14956074 < L_14956075)) break L65;
+                x_14956071 = colontmp__14956073[i_14956074]; x_14956071_Idx = "Field0";
+                y_14956072 = colontmp__14956073[i_14956074]; y_14956072_Idx = "Field1";
+                var colontmp__14956171 = plusRot_13787251(colontmp__14956069.pos, x_14956071[x_14956071_Idx], y_14956072[y_14956072_Idx], colontmp__14956069.rot);
+                var c_14956077 = colontmp__14956171["Field0"];
+                var r_14956078 = colontmp__14956171["Field1"];
+                c_14775002 = coord_13785422(c_14956077, r_14956078);
+                var x_14956079 = (((startX_14565006 + ((((column_13785500(c_14775002) * unit_14760004) + tileXStart_14770002) * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0);
+                var y_14956082 = (((startY_14565007 + ((((row_13785517(c_14775002) * unit_14760004) + tileYStart_14770003) * scaledWindowWidth_14565004) / 9.6000000000000000e+002)))|0);
+                context_12550009.fillRect(x_14956079, y_14956082, tileWidth_14765001, tileHeight_14770001);
+                i_14956074 += 1;
               }
           } while(false);
         } while(false);
       } while(false);
       }
       
-      L65: do {
-        var rowI_14740020 = 0;
-        var i_14896101 = 10;
-        L66: do {
-            L67: while (true) {
-            if (!(i_14896101 < 30)) break L67;
-              rowI_14740020 = i_14896101;
-              L68: do {
-                var colI_14740029 = 0;
-                var i_14896099 = 0;
-                L69: do {
-                    L70: while (true) {
-                    if (!(i_14896099 < 10)) break L70;
-                      colI_14740029 = i_14896099;
-                      var Tmp71 = game_14245401[0];
-                      if (ConstSet64[Tmp71.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-                      var p_14745002 = (Tmp72 = Tmp71.tetris.board, Tmp72)[coord_13785422(colI_14740029, rowI_14740020)];
-                      var x_14755001 = (((((startX_14505006)|0) + ((((((colI_14740029 * 27) + 345) * scaledWindowHeight_14505005) / 5.4000000000000000e+002))|0)))|0);
-                      var y_14765001 = (((((startY_14505007)|0) + ((((((rowI_14740020 - 10) * 27) * scaledWindowHeight_14505005) / 5.4000000000000000e+002))|0)))|0);
-                      if (!((p_14745002 == 0))) {
-                      context_12550009.fillStyle = pieceColors_13785202[p_14745002];
-                      context_12550009.strokeStyle = pieceColors_13785202[p_14745002];
-                      context_12550009.fillRect(x_14755001, y_14765001, scaledTileWidth_14515001, scaledTileHeight_14520001);
+      L66: do {
+        var rowI_14800020 = 0;
+        var i_14956101 = 10;
+        L67: do {
+            L68: while (true) {
+            if (!(i_14956101 < 30)) break L68;
+              rowI_14800020 = i_14956101;
+              L69: do {
+                var colI_14800029 = 0;
+                var i_14956099 = 0;
+                L70: do {
+                    L71: while (true) {
+                    if (!(i_14956099 < 10)) break L71;
+                      colI_14800029 = i_14956099;
+                      var Tmp72 = game_14300401[0];
+                      if (ConstSet71[Tmp72.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+                      var p_14805002 = (Tmp73 = Tmp72.tetris.board, Tmp73)[coord_13785422(colI_14800029, rowI_14800020)];
+                      var x_14815001 = (((((startX_14565006)|0) + ((((((colI_14800029 * 27) + 345) * scaledWindowHeight_14565005) / 5.4000000000000000e+002))|0)))|0);
+                      var y_14825001 = (((((startY_14565007)|0) + ((((((rowI_14800020 - 10) * 27) * scaledWindowHeight_14565005) / 5.4000000000000000e+002))|0)))|0);
+                      if (!((p_14805002 == 0))) {
+                      context_12550009.fillStyle = pieceColors_13785202[p_14805002];
+                      context_12550009.strokeStyle = pieceColors_13785202[p_14805002];
+                      context_12550009.fillRect(x_14815001, y_14825001, scaledTileWidth_14575001, scaledTileHeight_14580001);
                       }
                       
                       context_12550009.fillStyle = "rgba(80,80,80,1.0)";
                       context_12550009.strokeStyle = "rgba(80,80,80,1.0)";
                       context_12550009.beginPath();
-                      context_12550009.rect(x_14755001, y_14765001, scaledTileWidth_14515001, scaledTileHeight_14520001);
+                      context_12550009.rect(x_14815001, y_14825001, scaledTileWidth_14575001, scaledTileHeight_14580001);
                       context_12550009.stroke();
-                      i_14896099 += 1;
+                      i_14956099 += 1;
                     }
                 } while(false);
               } while(false);
-              i_14896101 += 1;
+              i_14956101 += 1;
             }
         } while(false);
       } while(false);
-      var Tmp73 = game_14245401[0];
-      if (ConstSet65[Tmp73.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      var shadowPiece_14795002 = nimCopy(null, Tmp73.tetris.piece, NTI13785377);
-      L74: do {
-          L75: while (true) {
-          if (!true) break L75;
-            var oldPos_14795003 = shadowPiece_14795002.pos;
-            var newRow_14795004 = (row_13785517(oldPos_14795003) + 1);
-              if (!(contains_13810002(newRow_14795004))) Tmp76 = true; else {                shadowPiece_14795002.pos = coord_13785422(column_13785500(oldPos_14795003), newRow_14795004);
-                var Tmp77 = game_14245401[0];
-                if (ConstSet66[Tmp77.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-                Tmp76 = overlapsOrOOB_13820034(Tmp77.tetris.board, shadowPiece_14795002);              }            if (Tmp76) {
-            shadowPiece_14795002.pos = oldPos_14795003;
-            break L74;
+      var Tmp74 = game_14300401[0];
+      if (ConstSet72[Tmp74.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      var shadowPiece_14855002 = nimCopy(null, Tmp74.tetris.piece, NTI13785377);
+      L75: do {
+          L76: while (true) {
+          if (!true) break L76;
+            var oldPos_14855003 = shadowPiece_14855002.pos;
+            var newRow_14855004 = (row_13785517(oldPos_14855003) + 1);
+              if (!(contains_13810002(newRow_14855004))) Tmp77 = true; else {                shadowPiece_14855002.pos = coord_13785422(column_13785500(oldPos_14855003), newRow_14855004);
+                var Tmp78 = game_14300401[0];
+                if (ConstSet73[Tmp78.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+                Tmp77 = overlapsOrOOB_13820034(Tmp78.tetris.board, shadowPiece_14855002);              }            if (Tmp77) {
+            shadowPiece_14855002.pos = oldPos_14855003;
+            break L75;
             }
             
           }
       } while(false);
       context_12550009.fillStyle = "rgba(200,200,200,1.0)";
       context_12550009.strokeStyle = "rgba(200,200,200,1.0)";
-      L78: do {
-        var c_14815001 = 0;
-        if (!((shadowPiece_14795002.kind == 0))) {
-        c_14815001 = shadowPiece_14795002.pos;
-        if ((10 <= row_13785517(c_14815001))) {
-        var x_14830001 = (((((startX_14505006)|0) + ((((((column_13785500(c_14815001) * 27) + 345) * scaledWindowHeight_14505005) / 5.4000000000000000e+002))|0)))|0);
-        var y_14840001 = (((((startY_14505007)|0) + ((((((row_13785517(c_14815001) - 10) * 27) * scaledWindowHeight_14505005) / 5.4000000000000000e+002))|0)))|0);
-        context_12550009.fillRect(x_14830001, y_14840001, scaledTileWidth_14515001, scaledTileHeight_14520001);
+      L79: do {
+        var c_14875001 = 0;
+        if (!((shadowPiece_14855002.kind == 0))) {
+        c_14875001 = shadowPiece_14855002.pos;
+        if ((10 <= row_13785517(c_14875001))) {
+        var x_14890001 = (((((startX_14565006)|0) + ((((((column_13785500(c_14875001) * 27) + 345) * scaledWindowHeight_14565005) / 5.4000000000000000e+002))|0)))|0);
+        var y_14900001 = (((((startY_14565007)|0) + ((((((row_13785517(c_14875001) - 10) * 27) * scaledWindowHeight_14565005) / 5.4000000000000000e+002))|0)))|0);
+        context_12550009.fillRect(x_14890001, y_14900001, scaledTileWidth_14575001, scaledTileHeight_14580001);
         }
         
         }
         
-        L79: do {
-          var x_14896117 = null;
-          var x_14896117_Idx = 0;
-          var y_14896118 = null;
-          var y_14896118_Idx = 0;
-          var colontmp__14896119 = [];
-          colontmp__14896119 = pieceExtensions_13785367[shadowPiece_14795002.kind];
-          var i_14896120 = 0;
-          var L_14896121 = (colontmp__14896119).length;
-          L80: do {
-              L81: while (true) {
-              if (!(i_14896120 < L_14896121)) break L81;
-                x_14896117 = colontmp__14896119[i_14896120]; x_14896117_Idx = "Field0";
-                y_14896118 = colontmp__14896119[i_14896120]; y_14896118_Idx = "Field1";
-                var colontmp__14896185 = plusRot_13787251(shadowPiece_14795002.pos, x_14896117[x_14896117_Idx], y_14896118[y_14896118_Idx], shadowPiece_14795002.rot);
-                var c_14896123 = colontmp__14896185["Field0"];
-                var r_14896124 = colontmp__14896185["Field1"];
-                c_14815001 = coord_13785422(c_14896123, r_14896124);
-                if ((10 <= row_13785517(c_14815001))) {
-                var x_14896125 = (((((startX_14505006)|0) + ((((((column_13785500(c_14815001) * 27) + 345) * scaledWindowHeight_14505005) / 5.4000000000000000e+002))|0)))|0);
-                var y_14896130 = (((((startY_14505007)|0) + ((((((row_13785517(c_14815001) - 10) * 27) * scaledWindowHeight_14505005) / 5.4000000000000000e+002))|0)))|0);
-                context_12550009.fillRect(x_14896125, y_14896130, scaledTileWidth_14515001, scaledTileHeight_14520001);
+        L80: do {
+          var x_14956117 = null;
+          var x_14956117_Idx = 0;
+          var y_14956118 = null;
+          var y_14956118_Idx = 0;
+          var colontmp__14956119 = [];
+          colontmp__14956119 = pieceExtensions_13785367[shadowPiece_14855002.kind];
+          var i_14956120 = 0;
+          var L_14956121 = (colontmp__14956119).length;
+          L81: do {
+              L82: while (true) {
+              if (!(i_14956120 < L_14956121)) break L82;
+                x_14956117 = colontmp__14956119[i_14956120]; x_14956117_Idx = "Field0";
+                y_14956118 = colontmp__14956119[i_14956120]; y_14956118_Idx = "Field1";
+                var colontmp__14956185 = plusRot_13787251(shadowPiece_14855002.pos, x_14956117[x_14956117_Idx], y_14956118[y_14956118_Idx], shadowPiece_14855002.rot);
+                var c_14956123 = colontmp__14956185["Field0"];
+                var r_14956124 = colontmp__14956185["Field1"];
+                c_14875001 = coord_13785422(c_14956123, r_14956124);
+                if ((10 <= row_13785517(c_14875001))) {
+                var x_14956125 = (((((startX_14565006)|0) + ((((((column_13785500(c_14875001) * 27) + 345) * scaledWindowHeight_14565005) / 5.4000000000000000e+002))|0)))|0);
+                var y_14956130 = (((((startY_14565007)|0) + ((((((row_13785517(c_14875001) - 10) * 27) * scaledWindowHeight_14565005) / 5.4000000000000000e+002))|0)))|0);
+                context_12550009.fillRect(x_14956125, y_14956130, scaledTileWidth_14575001, scaledTileHeight_14580001);
                 }
                 
-                i_14896120 += 1;
+                i_14956120 += 1;
               }
           } while(false);
         } while(false);
       } while(false);
-      var Tmp82 = game_14245401[0];
-      if (ConstSet67[Tmp82.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      context_12550009.fillStyle = pieceColors_13785202[Tmp82.tetris.piece.kind];
-      var Tmp83 = game_14245401[0];
-      if (ConstSet68[Tmp83.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-      context_12550009.strokeStyle = pieceColors_13785202[Tmp83.tetris.piece.kind];
-      L84: do {
-        var c_14860002 = 0;
-        var colontmp__14896146 = ({kind: 0, pos: 0, rot: 0});
-        var Tmp85 = game_14245401[0];
-        if (ConstSet69[Tmp85.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
-        nimCopy(colontmp__14896146, Tmp85.tetris.piece, NTI13785377);
-        if (!((colontmp__14896146.kind == 0))) {
-        c_14860002 = colontmp__14896146.pos;
-        if ((10 <= row_13785517(c_14860002))) {
-        var x_14875001 = (((((startX_14505006)|0) + ((((((column_13785500(c_14860002) * 27) + 345) * scaledWindowHeight_14505005) / 5.4000000000000000e+002))|0)))|0);
-        var y_14885001 = (((((startY_14505007)|0) + ((((((row_13785517(c_14860002) - 10) * 27) * scaledWindowHeight_14505005) / 5.4000000000000000e+002))|0)))|0);
-        context_12550009.fillRect(x_14875001, y_14885001, scaledTileWidth_14515001, scaledTileHeight_14520001);
+      var Tmp83 = game_14300401[0];
+      if (ConstSet74[Tmp83.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      context_12550009.fillStyle = pieceColors_13785202[Tmp83.tetris.piece.kind];
+      var Tmp84 = game_14300401[0];
+      if (ConstSet75[Tmp84.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+      context_12550009.strokeStyle = pieceColors_13785202[Tmp84.tetris.piece.kind];
+      L85: do {
+        var c_14920002 = 0;
+        var colontmp__14956146 = ({kind: 0, pos: 0, rot: 0});
+        var Tmp86 = game_14300401[0];
+        if (ConstSet76[Tmp86.kind]===undefined) { raiseFieldError(makeNimstrLit("\'tetris\' is not accessible using discriminant \'kind\' of type \'GameObj\'")); }
+        nimCopy(colontmp__14956146, Tmp86.tetris.piece, NTI13785377);
+        if (!((colontmp__14956146.kind == 0))) {
+        c_14920002 = colontmp__14956146.pos;
+        if ((10 <= row_13785517(c_14920002))) {
+        var x_14935001 = (((((startX_14565006)|0) + ((((((column_13785500(c_14920002) * 27) + 345) * scaledWindowHeight_14565005) / 5.4000000000000000e+002))|0)))|0);
+        var y_14945001 = (((((startY_14565007)|0) + ((((((row_13785517(c_14920002) - 10) * 27) * scaledWindowHeight_14565005) / 5.4000000000000000e+002))|0)))|0);
+        context_12550009.fillRect(x_14935001, y_14945001, scaledTileWidth_14575001, scaledTileHeight_14580001);
         }
         
         }
         
-        L86: do {
-          var x_14896148 = null;
-          var x_14896148_Idx = 0;
-          var y_14896149 = null;
-          var y_14896149_Idx = 0;
-          var colontmp__14896150 = [];
-          colontmp__14896150 = pieceExtensions_13785367[colontmp__14896146.kind];
-          var i_14896151 = 0;
-          var L_14896152 = (colontmp__14896150).length;
-          L87: do {
-              L88: while (true) {
-              if (!(i_14896151 < L_14896152)) break L88;
-                x_14896148 = colontmp__14896150[i_14896151]; x_14896148_Idx = "Field0";
-                y_14896149 = colontmp__14896150[i_14896151]; y_14896149_Idx = "Field1";
-                var colontmp__14896186 = plusRot_13787251(colontmp__14896146.pos, x_14896148[x_14896148_Idx], y_14896149[y_14896149_Idx], colontmp__14896146.rot);
-                var c_14896154 = colontmp__14896186["Field0"];
-                var r_14896155 = colontmp__14896186["Field1"];
-                c_14860002 = coord_13785422(c_14896154, r_14896155);
-                if ((10 <= row_13785517(c_14860002))) {
-                var x_14896156 = (((((startX_14505006)|0) + ((((((column_13785500(c_14860002) * 27) + 345) * scaledWindowHeight_14505005) / 5.4000000000000000e+002))|0)))|0);
-                var y_14896161 = (((((startY_14505007)|0) + ((((((row_13785517(c_14860002) - 10) * 27) * scaledWindowHeight_14505005) / 5.4000000000000000e+002))|0)))|0);
-                context_12550009.fillRect(x_14896156, y_14896161, scaledTileWidth_14515001, scaledTileHeight_14520001);
+        L87: do {
+          var x_14956148 = null;
+          var x_14956148_Idx = 0;
+          var y_14956149 = null;
+          var y_14956149_Idx = 0;
+          var colontmp__14956150 = [];
+          colontmp__14956150 = pieceExtensions_13785367[colontmp__14956146.kind];
+          var i_14956151 = 0;
+          var L_14956152 = (colontmp__14956150).length;
+          L88: do {
+              L89: while (true) {
+              if (!(i_14956151 < L_14956152)) break L89;
+                x_14956148 = colontmp__14956150[i_14956151]; x_14956148_Idx = "Field0";
+                y_14956149 = colontmp__14956150[i_14956151]; y_14956149_Idx = "Field1";
+                var colontmp__14956186 = plusRot_13787251(colontmp__14956146.pos, x_14956148[x_14956148_Idx], y_14956149[y_14956149_Idx], colontmp__14956146.rot);
+                var c_14956154 = colontmp__14956186["Field0"];
+                var r_14956155 = colontmp__14956186["Field1"];
+                c_14920002 = coord_13785422(c_14956154, r_14956155);
+                if ((10 <= row_13785517(c_14920002))) {
+                var x_14956156 = (((((startX_14565006)|0) + ((((((column_13785500(c_14920002) * 27) + 345) * scaledWindowHeight_14565005) / 5.4000000000000000e+002))|0)))|0);
+                var y_14956161 = (((((startY_14565007)|0) + ((((((row_13785517(c_14920002) - 10) * 27) * scaledWindowHeight_14565005) / 5.4000000000000000e+002))|0)))|0);
+                context_12550009.fillRect(x_14956156, y_14956161, scaledTileWidth_14575001, scaledTileHeight_14580001);
                 }
                 
-                i_14896151 += 1;
+                i_14956151 += 1;
               }
           } while(false);
         } while(false);
@@ -2560,27 +2649,27 @@ function singleLoop_14391307() {
 
   
 }
-async function mainLoop_14895001() {
-    function foo_14895203(timestamp_14895205) {
-        fps_12550205[0] = (((1.0000000000000000e+003 / (timestamp_14895205 - lastTimestamp_14895201)))|0);
-        singleLoop_14391307();
-        lastTimestamp_14895201 = timestamp_14895205;
-        var _ = window.requestAnimationFrame(foo_14895203);
+async function mainLoop_14955001() {
+    function foo_14955203(timestamp_14955205) {
+        fps_12550205[0] = (((1.0000000000000000e+003 / (timestamp_14955205 - lastTimestamp_14955201)))|0);
+        singleLoop_14446312();
+        lastTimestamp_14955201 = timestamp_14955205;
+        var _ = window.requestAnimationFrame(foo_14955203);
 
       
     }
 
-  var result_14895007 = null;
+  var result_14955007 = null;
 
   BeforeRet: do {
-    var lastTimestamp_14895201 = 0.0;
-    addListeners_14245049(game_14245401[0]);
-    var _ = window.requestAnimationFrame(foo_14895203);
-    result_14895007 = undefined;
+    var lastTimestamp_14955201 = 0.0;
+    addListeners_14300049(game_14300401[0]);
+    var _ = window.requestAnimationFrame(foo_14955203);
+    result_14955007 = undefined;
     break BeforeRet;
   } while (false);
 
-  return result_14895007;
+  return result_14955007;
 
 }
-var _ = mainLoop_14895001();
+var _ = mainLoop_14955001();
